@@ -3,12 +3,32 @@ import './App.css';
 import './Name'; 
 import Name from './Name';
 import NavBar from './NavBar';
+import React from "react";
+
+import FadeInSection from './FadeIn';
 
 function App() {
   return (
     <div>
       <NavBar/>
-      <Name/>
+      <FadeInSection>
+        <Name/>
+      </FadeInSection>
+      <FadeInSection>
+        <Name/>
+      </FadeInSection>
+      <FadeInSection>
+        <Name/>
+      </FadeInSection>
+      <FadeInSection>
+        <Name/>
+      </FadeInSection>
+      <FadeInSection>
+        <Name/>
+      </FadeInSection>
+      <FadeInSection>
+        <Name/>
+      </FadeInSection>
     </div>
   );
 }
