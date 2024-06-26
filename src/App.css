@@ -4,8 +4,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-top: 50px;
-  padding-left: 150px;
+  padding-top: 25px;
+  padding-left: 100px;
 }
 
 .column {
@@ -91,9 +91,13 @@ a, p {
   text-decoration: none;
 }
 
+a:hover {
+  font-weight: 900;
+}
+
 .nav {
   display: flex;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .fade-in-section {
@@ -115,4 +119,5 @@ a, p {
   padding-top: 150px;
   padding-left: 150px;
   font-size: 32px;
+  font-weight: 900;
 }
