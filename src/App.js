@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import './Name'; 
-import Name from './Name';
-import NavBar from './NavBar';
 import React from "react";
 
 import FadeInSection from './FadeIn';
+import Name from './Name';
+import NavBar from './NavBar';
+import About from './About';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <p id='about'>about</p>
      
       <FadeInSection>
-        <Name/>
+        <About/>
       </FadeInSection>
 
       <p id='projects'>projects</p>
