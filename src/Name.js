@@ -6,7 +6,7 @@ function Name() {
 
  
   return (
-    <div className='row'>
+    <div className='row main'>
       <div className= "column">
         <img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Picture of Rene Acosta" className="reneimg"/>
       </div>

@@ -2,6 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.main {
   font-size: calc(10px + 2vmin);
   color: white;
   padding-top: 25px;
