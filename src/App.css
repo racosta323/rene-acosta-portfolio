@@ -4,7 +4,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 150px;
 }
 
@@ -82,7 +82,7 @@ li {
   font-size: 32px;
 }
 
-a {
+a, p {
   display: block;
   padding: 8px;
   background-color: #1E1E1E;
@@ -108,4 +108,11 @@ a {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+#about, #projects, #contact {
+  display: flex;
+  padding-top: 150px;
+  padding-left: 150px;
+  font-size: 32px;
 }

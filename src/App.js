@@ -11,24 +11,29 @@ function App() {
   return (
     <div>
       <NavBar/>
+
       <FadeInSection>
         <Name/>
       </FadeInSection>
+
+      <p id='about'>about</p>
+     
       <FadeInSection>
         <Name/>
       </FadeInSection>
+
+      <p id='projects'>projects</p>
+
       <FadeInSection>
         <Name/>
       </FadeInSection>
+
+      <p id='contact'>contact me</p>
+
       <FadeInSection>
         <Name/>
       </FadeInSection>
-      <FadeInSection>
-        <Name/>
-      </FadeInSection>
-      <FadeInSection>
-        <Name/>
-      </FadeInSection>
+      
     </div>
   );
 }

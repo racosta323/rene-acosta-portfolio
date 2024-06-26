@@ -5,8 +5,6 @@ import { useState, useRef, useEffect } from 'react'
 function Name() {
 
  
-
-
   return (
     <div className='row'>
       <div className= "column">
