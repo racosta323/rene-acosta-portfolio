@@ -57,7 +57,7 @@
   font-style:normal;
   font-variation-settings:
     "slnt" 0;
-  margin-top: 125px;
+  margin-top: 100px;
   margin-bottom: 0px;
   font-size: 128px;
 }
@@ -80,6 +80,7 @@ li {
   float: left;
   padding-left: 150px;
   font-size: 32px;
+  letter-spacing: 10px
 }
 
 a, p {
@@ -120,4 +121,5 @@ a:hover {
   padding-left: 150px;
   font-size: 32px;
   font-weight: 900;
+  letter-spacing: 20px
 }
