@@ -10,8 +10,8 @@ function Name() {
       <div className= "column">
         <img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Picture of Rene Acosta" className="reneimg"/>
       </div>
-      <div className= "column">
-        <h1 className='name'>Rene <br/>Acosta</h1>
+      <div className= "column" style={{width: 500 + 'px'}}>
+        <h1 className='name'>Rene Acosta</h1>
         <p className='sub'>Software Engineer</p>
         <div className='line'></div>  
       </div>
