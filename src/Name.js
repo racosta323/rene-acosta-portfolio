@@ -11,10 +11,12 @@ function Name() {
         <img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Picture of Rene Acosta" className="reneimg"/>
       </div>
       <div className= "column">
-        <h1 className='name'>RENE <br/>ACOSTA</h1>
+        <h1 className='name'>Rene <br/>Acosta</h1>
         <p className='sub'>Software Engineer</p>
+        <div className='line'></div>  
       </div>
     </div>
+    
   );
 }
 

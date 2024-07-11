@@ -5,7 +5,8 @@ import React from "react";
 import FadeInSection from './FadeIn';
 import Name from './Name';
 import NavBar from './NavBar';
-import About from './About';
+import About from './About'
+
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
         <Name/>
       </FadeInSection>
 
-      <p id='about'>about</p>
+      
      
       <FadeInSection>
+        <p id='about'>about</p>
         <About/>
       </FadeInSection>
 
