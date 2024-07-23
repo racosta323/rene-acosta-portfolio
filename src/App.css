@@ -11,7 +11,7 @@
 }
 
 .column {
- padding: 40px;
+ padding: 10px;
  width: 350px;
  height: 350px;
 }
@@ -55,13 +55,12 @@
 .name {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100px;
   font-style:normal;
   font-variation-settings:
     "slnt" 0;
   margin-top: 50px;
   margin-bottom: 0px;
-  font-size: 60px;
+  font-size: 75px;
   color: whitesmoke;
 }
 
@@ -111,27 +110,30 @@ a:hover {
   justify-content: end;
 }
 
-.fade-in-section {
+/* .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
   visibility: hidden;
   transition: opacity 0.6s ease-out, transform 1.2s ease-out;
   will-change: opacity, visibility;
+  
 }
 
 .fade-in-section.is-visible {
   opacity: 1;
   transform: none;
   visibility: visible;
-}
+  margin-top: 10px;
+} */
 
 #about, #projects, #contact {
   display: flex;
-  padding-top: 150px;
+  /* padding-top: 150px; */
   padding-left: 150px;
   font-size: 15px;
   font-weight: 900;
-  letter-spacing: 20px
+  letter-spacing: 20px;
+  margin-top: 200px;
 }
 
 h2 {
@@ -141,5 +143,13 @@ h2 {
 }
 
 .container {
-  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.name-tag {
+  margin: 0px;
 }
