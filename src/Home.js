@@ -1,4 +1,5 @@
 import ContactButton from "./ContactButton"
+import Carousel from "./Carousel"
 
 function Home(){
     return(
@@ -13,7 +14,16 @@ function Home(){
                 alt='avatar of businessman'
                 id="man-avatar"
             />
-            <a href="https://www.vecteezy.com/free-vector/software-development">Software Development Vectors by Vecteezy</a>
+            <a 
+                href="https://www.vecteezy.com/free-vector/software-development"
+                id='link'
+            >
+                Software Development Vectors by Vecteezy
+            </a>
+            <p
+                id="carousel-text"
+            >Trusted by the world's leading brands</p>
+            <Carousel/>
         </section>
     )
 }

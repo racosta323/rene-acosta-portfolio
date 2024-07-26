@@ -216,3 +216,23 @@ section {
   height: auto;
   margin-top: 20px
 }
+
+#link{
+  font-size: xx-small;
+  color: white;
+}
+
+#carousel-text{
+  margin-top: 40px;
+  font-size: 18px
+}
+
+.logo{
+  height: 150px;
+  
+}
+
+.slide {
+  animation: scroll ;
+}
+
