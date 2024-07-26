@@ -210,3 +210,9 @@ section {
   width: 800px;
   margin-bottom: 40px;
 }
+
+#man-avatar{
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px
+}
