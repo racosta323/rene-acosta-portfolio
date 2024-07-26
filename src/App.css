@@ -35,7 +35,7 @@
 } */
 
 #root {
-  background-color: #0200b9;
+  background-color: rgb(227, 246, 242);
   min-height: 100vh;
 }
 
@@ -91,14 +91,14 @@ li {
   
 }
 
-a, p {
+/* a, p {
   display: block;
   padding: 8px;
   background-color: #1E1E1E;
   color: white;
   font: weight 500px;
   text-decoration: none;
-}
+} */
 
 a:hover {
   font-weight: 900;
@@ -158,4 +158,36 @@ h2 {
 #about-text {
   font-size:  30px;
   margin-top: 0px;
+}
+
+button {
+  background-color: #4bb69c;
+  font-size: 25px;
+  border-radius: 20px;
+  border: none;
+  transition-duration: .4s;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #149678;
+  color: white;
+}
+
+#arrow {
+  font-weight: 300%;
+  font-size: 20px;
+}
+
+section {
+    background-color:yellowgreen;
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+    justify-content: center;
 }

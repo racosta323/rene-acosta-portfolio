@@ -3,6 +3,7 @@ import './App.css';
 import React from "react";
 
 import FadeInSection from './FadeIn';
+import Home from './Home'
 import Name from './Name';
 import NavBar from './NavBar';
 import About from './About'
@@ -14,7 +15,7 @@ function App() {
       <NavBar/>
 
       <FadeInSection>
-        <Name/>
+        <Home/>
       </FadeInSection>
 
       
