@@ -2,7 +2,7 @@ function ContactButton(){
     return(
         <>
            <button type="button"> 
-                <p><span id='arrow'> &#10132;</span> Contact Me</p>
+                <p> &#10132; Contact Me</p>
             </button>
         </>
     )

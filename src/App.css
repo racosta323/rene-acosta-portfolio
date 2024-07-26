@@ -137,18 +137,24 @@ a:hover {
 }
 
 h2 {
-  /* text-align: center; */
-  font-size: 40px;
-  color: whitesmoke;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 1;
 }
 
-.container {
+h1 {
+  font-size: 57px;
+  text-align: center;
+  margin:0;
+}
+
+/* .container {
   justify-content: center;
   display: flex;
   flex-direction: column;
   padding-left: 25%;
   padding-right: 25%;
-}
+} */
 
 .name-tag {
   margin-bottom: 0px;
@@ -162,15 +168,20 @@ h2 {
 
 button {
   background-color: #4bb69c;
-  font-size: 25px;
-  border-radius: 20px;
+  font-size: 16px;
+  border-radius: 100px;
   border: none;
   transition-duration: .4s;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 8px 24px 8px 24px;
   font-size: 20px;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  min-height: 48px;
+  min-width: 48px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -178,10 +189,7 @@ button:hover {
   color: white;
 }
 
-#arrow {
-  font-weight: 300%;
-  font-size: 20px;
-}
+
 
 section {
     background-color:yellowgreen;
@@ -190,4 +198,15 @@ section {
     margin-left:auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  margin-bottom: 40px;
 }
