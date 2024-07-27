@@ -18,9 +18,16 @@
 
 .reneimg {
   border-radius: 50%;
-  height: 350px;
-  max-width: 350px;
-  display: inline-block;
+  /* height: 350px; */
+  /* height: fit-content; */
+  height: 570px;
+  width: 530px;
+  
+}
+
+#rene-container{
+  margin-left: 0px;
+  width: 100%;
 }
 
 /* .App-logo {
@@ -126,14 +133,17 @@ a:hover {
   margin-top: 10px;
 } */
 
-#about, #projects, #contact {
+section.about{
   display: flex;
-  /* padding-top: 150px; */
-  padding-left: 150px;
-  font-size: 15px;
-  font-weight: 900;
-  letter-spacing: 20px;
-  margin-top: 200px;
+  align-items: start;
+  flex-direction:row;
+  justify-content: start;  
+  padding: 0px 0px 0px 0px;
+}
+
+section.about > div {
+  margin: 100px 0px 0px 40px;
+  /* padding: 0px 0px 0px 50px; */
 }
 
 p {
@@ -173,10 +183,6 @@ h4 {
   margin-top: 100px
 }
 
-#about-text {
-  font-size:  30px;
-  margin-top: 0px;
-}
 
 button {
   background-color: #4bb69c;
@@ -308,3 +314,17 @@ section {
   justify-content: center;
 }
 
+/* #bio{
+  padding: 0px;
+  
+} */
+
+#bio p, h3 {
+  text-align: start;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
