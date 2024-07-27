@@ -138,7 +138,6 @@ section.about{
   align-items: start;
   flex-direction:row;
   justify-content: start;  
-  padding: 0px 0px 0px 0px;
 }
 
 section.about > div {
@@ -314,10 +313,10 @@ section {
   justify-content: center;
 }
 
-/* #bio{
+#bio{
   padding: 0px;
-  
-} */
+  margin-left:200px;
+}
 
 #bio p, h3 {
   text-align: start;
