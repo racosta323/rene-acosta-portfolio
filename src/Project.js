@@ -2,8 +2,10 @@
 
 function Project(){
     return(
-        <>
-        </>
+        <div id="card">
+            <div id="card-header">
+            </div>
+        </div>
     )
 }
 
