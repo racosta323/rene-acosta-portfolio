@@ -311,6 +311,7 @@ section {
   max-width: 50%;
   align-items: center;
   justify-content: center;
+  display: flex;
 }
 
 #bio{
@@ -318,7 +319,7 @@ section {
   margin-left:200px;
 }
 
-#bio p, h3 {
+#bio p, #bio h3 {
   text-align: start;
 }
 
@@ -326,4 +327,21 @@ section {
   align-items: center;
   justify-content: center;
   max-width: 100%;
+}
+
+#numbers{
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  
+}
+
+
+#numbers h3{
+  margin-bottom: 0px;
 }
