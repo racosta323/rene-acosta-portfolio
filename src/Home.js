@@ -1,12 +1,13 @@
 import ContactButton from "./ContactButton"
 import Carousel from "./Carousel"
 
+
 function Home(){
     return(
         <section>
-            <h1>Hello, I'm Rene Acosta!</h1>
+            <h2>Hello, I'm Rene Acosta!</h2>
             <div className="center">
-                <h2>Empower travellers and travel companies with choice, control and confidence. Snowfall's game-changing technology, Junction, makes booking and managing multimodal travel effortless.</h2>
+                <p>Empower travellers and travel companies with choice, control and confidence. Snowfall's game-changing technology, Junction, makes booking and managing multimodal travel effortless.</p>
             </div>
             <ContactButton/>
             <img
@@ -24,6 +25,7 @@ function Home(){
                 id="carousel-text"
             >Trusted by the world's leading brands</p>
             <Carousel/>
+            
         </section>
     )
 }

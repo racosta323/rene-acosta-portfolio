@@ -7,6 +7,7 @@ import Home from './Home'
 import Name from './Name';
 import NavBar from './NavBar';
 import About from './About'
+import Projects from './Projects';
 
 
 function App() {
@@ -14,12 +15,13 @@ function App() {
     <div>
       <NavBar/>
 
-      <FadeInSection>
+      {/* <FadeInSection> */}
         <Home/>
-      </FadeInSection>
+        <Projects/>
+      {/* </FadeInSection> */}
 
       
-     
+{/*      
       <FadeInSection>
         <p id='about'>about</p>
         <About/>
@@ -35,7 +37,7 @@ function App() {
 
       <FadeInSection>
         <Name/>
-      </FadeInSection>
+      </FadeInSection> */}
       
     </div>
   );
