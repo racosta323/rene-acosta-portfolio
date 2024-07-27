@@ -8,6 +8,7 @@ import Name from './Name';
 import NavBar from './NavBar';
 import About from './About'
 import Projects from './Projects';
+import Resume from './Resume';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       {/* <FadeInSection> */}
         <Home/>
         <Projects/>
+        <Resume/>
+        <About/>
       {/* </FadeInSection> */}
 
       
