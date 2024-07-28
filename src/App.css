@@ -95,7 +95,15 @@ li {
   padding-left: 150px;
   font-size: 15px;
   letter-spacing: 10px;
-  
+  float: left;
+}
+
+li a {
+  display:block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 
 /* a, p {
@@ -107,15 +115,15 @@ li {
   text-decoration: none;
 } */
 
-a:hover {
+li a:hover {
   font-weight: 900;
 }
 
-.nav {
+#nav-container {
   display: flex;
-  padding-top: 100px;
-  justify-content: end;
+  
 }
+
 
 /* .fade-in-section {
   opacity: 0;
