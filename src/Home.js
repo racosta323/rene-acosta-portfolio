@@ -4,7 +4,7 @@ import Carousel from "./Carousel"
 
 function Home(){
     return(
-        <section>
+        <section className='home'>
             <h2>Hello, I'm Rene Acosta!</h2>
             <div className="center">
                 <p>Empower travellers and travel companies with choice, control and confidence. Snowfall's game-changing technology, Junction, makes booking and managing multimodal travel effortless.</p>
