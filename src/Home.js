@@ -21,11 +21,11 @@ function Home(){
             >
                 Software Development Vectors by Vecteezy
             </a>
-            <p
-                id="carousel-text"
-            >Trusted by the world's leading brands</p>
+            <p id="carousel-text">
+                Trusted by the world's leading brands
+            </p>
             <Carousel/>
-            
+
         </section>
     )
 }

@@ -41,17 +41,34 @@ li a:hover {
   font-weight: 900;
 }
 
-#nav-container {
+#nav-container-solid {
   display: flex;
   justify-content: space-between;
   padding: 15px 0px 20px 0px;
   background-color: #896bff;
+  overflow: hidden;
+  /* background-color: transparent; */
+}
+
+#nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px 20px 0px;
+  background-color: #dcd7f0;
+  overflow: hidden;
+  /* background-color: transparent; */
+}
+
+#nav-container-solid h1{
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 48px;
+  color: white;
 }
 
 #nav-container h1{
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
-  color: white;
+  color: #896bff;
 }
 
 #nav-btn {
@@ -71,6 +88,12 @@ li a:hover {
 
 #nav-right{
   display: flex;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* .fade-in-section {
@@ -117,10 +140,15 @@ section.home {
   padding-top: 180px;
 }
 
+section.projects {
+  padding-top: 100px;
+}
+
 p {
   font-size: 18px;
   text-align: center;
   font-weight: 1;
+  
 }
 
 h2 {
@@ -175,13 +203,16 @@ button:hover {
   align-items: center;
   justify-content: center;
   width: 800px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+.center p {
+  line-height: 28px;
 }
 
 #man-avatar{
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
-  margin-top: 20px
 }
 
 #link{
@@ -190,7 +221,7 @@ button:hover {
 }
 
 #carousel-text{
-  margin-top: 40px;
+  margin-top: 10px;
   font-size: 18px
 }
 
