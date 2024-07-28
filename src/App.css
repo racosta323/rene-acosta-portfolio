@@ -92,17 +92,15 @@ ul {
 }
 
 li {
-  padding-left: 150px;
   font-size: 15px;
-  letter-spacing: 10px;
   float: left;
 }
 
 li a {
   display:block;
-  color: black;
+  color: white;
   text-align: center;
-  padding: 16px;
+  padding: 0px 60px 0px 60px;
   text-decoration: none;
 }
 
@@ -121,7 +119,24 @@ li a:hover {
 
 #nav-container {
   display: flex;
-  
+  justify-content: space-between;
+  padding: 10px 0px 30px 0px;
+  background-color: #24574A;
+}
+
+#nav-btn {
+  display: flex;
+  max-height: 30px;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+#nav-btn p{
+  font-size: 14px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-weight: bolder;
+
 }
 
 
