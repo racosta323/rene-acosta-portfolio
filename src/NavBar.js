@@ -3,7 +3,8 @@ import ContactButton from  './ContactButton'
 function NavBar() {
     return(
         <div id="nav-container">
-            <div>
+            <div id='nav-right'>
+                <h1>RENE ACOSTA</h1>
                 <ul>
                     <li><a href="#about">about</a></li>
                     <li><a href="#projects">projects</a></li>
