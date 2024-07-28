@@ -31,7 +31,7 @@ li {
 
 li a {
   display:block;
-  color: white;
+  color: #896bff;
   text-align: center;
   padding: 0px 60px 0px 60px;
   text-decoration: none;
@@ -63,6 +63,14 @@ li a:hover {
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
   color: white;
+}
+
+#nav-container-solid li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 0px 60px 0px 60px;
+  text-decoration: none;
 }
 
 #nav-container h1{
