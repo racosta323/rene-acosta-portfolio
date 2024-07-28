@@ -22,7 +22,7 @@ function NavBar() {
                         <li><a href="#contact">contact me</a></li>
                     </ul>
                 </div>
-                <div id='nav-btn'>
+                <div id={`${scroll ? 'nav-btn' : 'nav-btn-solid'}`}>
                     <ContactButton/>
                 </div>
             </div>

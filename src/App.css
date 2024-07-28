@@ -86,12 +86,42 @@ li a:hover {
   padding-right: 40px;
 }
 
-#nav-btn p{
+#nav-btn-solid {
+  display: flex;
+  max-height: 30px;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+#nav-btn p, #nav-btn-solid p {
   font-size: 14px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   font-weight: bolder;
 
+}
+
+#nav-btn button {
+  background-color: #dcd7f0;
+  font-size: 16px;
+  border-radius: 100px;
+  border: none;
+  transition-duration: .4s;
+  padding: 8px 24px 8px 24px;
+  font-size: 20px;
+  color: #896bff;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  min-height: 48px;
+  min-width: 48px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #149678;
+  color: white;
 }
 
 #nav-right{
