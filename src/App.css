@@ -409,5 +409,39 @@ button:hover {
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding:60px;
+}
+
+#modal-left{
+  width: 600px;
+}
+
+#modal-left h3 {
+  text-align: start;
+  padding-top: 20px;
+}
+
+#modal-left h4 {
+  text-align: start;
+  padding-top: 30px;
+}
+
+#modal-left p {
+  text-align: start;
+  padding-top: 30px;
+  line-height: 0px;
+}
+
+
+#modal-right{
+
+}
+
+#modal-right img{
+  width: 1000px;
+  padding-top: 20px;
+  
 }
