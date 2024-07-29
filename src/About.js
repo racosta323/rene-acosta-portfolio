@@ -6,10 +6,13 @@ function About(){
            <div id="bio">
                 <h3>Some sorta writing</h3>
                 <p>
-                Easy integration. Access the world’s biggest travel inventory with just one API.
+                    Easy integration. Access the world’s biggest travel inventory with just one API.
                 </p>
-                <ContactButton/>
+                <div>
+                    <ContactButton/>
+                </div>
            </div>
+           
            <div id='rene-container'>
                 <div className="center">
                     <img

@@ -18,7 +18,9 @@ function Resume(){
                     <p>hello</p>
                 </div>
             </div>
-            <button>Check out my resume here!</button>
+            <div className="bg">
+                <button>Check out my resume here!</button>
+            </div>
         </section>
     )
 }

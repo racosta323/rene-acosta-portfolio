@@ -65,6 +65,7 @@ li a:hover {
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
   color: white;
+  font-size: 25px;
 }
 
 #nav-container-solid li a {
@@ -79,6 +80,7 @@ li a:hover {
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
   color: #896bff;
+  font-size: 25px;
 }
 
 #nav-btn {
@@ -173,6 +175,7 @@ section.about{
   margin-right:auto;
   margin-left:auto;
   display: flex;
+  margin-top: 50px;
 }
 
 section.about > div {
@@ -213,12 +216,13 @@ h2 {
   font-size: 57px;
   text-align: center;
   margin:0;
+  color: #7055f8;
 }
 
 h3 {
   font-size: 45px;
   text-align: center;
-
+  color: #7055f8;
 }
 
 h4 {
@@ -350,10 +354,16 @@ button:hover {
 #bio{
   padding: 0px;
   margin-left:200px;
+  display: flex;
+  flex-direction: column;
 }
 
 #bio p, #bio h3 {
   text-align: start;
+}
+
+#bio div {
+  margin-top: 40px;
 }
 
 .center{
@@ -371,9 +381,12 @@ button:hover {
   align-items: center;
   justify-content: center;
   gap: 300px;
-  
 }
 
 #numbers h3{
   margin-bottom: 0px;
+}
+
+.bg{
+  background-color: white;
 }
