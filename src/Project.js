@@ -2,7 +2,9 @@
 import Modal from "./Modal";
 import { useState } from 'react'
 
-function Project(){
+function Project( { projects }){
+
+    
 
     const [ showModal, setShowModal ] = useState(false)
 
@@ -14,7 +16,7 @@ function Project(){
             <div id="card">
                 <div id="card-header"></div>
                 <div id='logos'>
-                    <h4>SHOWMATE</h4>
+                    <h4>SHOWMATE </h4>
                 </div>
                 <div>
                     <p>Distribution, retailing, booking and management of all travel related content – in a single platform.</p>

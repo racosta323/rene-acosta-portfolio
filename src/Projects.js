@@ -1,7 +1,11 @@
 //projects section
 import ProjectList from "./ProjectList";
 
-function Projects(){
+
+function Projects({ projects }){
+
+   
+   
     return(
         <section className="projects">
             <h3>A game-changer for travel sales, distribution and management</h3>
