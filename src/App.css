@@ -411,7 +411,8 @@ button:hover {
   width: 80%;
   display: flex;
   flex-direction: row;
-  padding:100px;
+  padding: 50px 100px 50px 50px;
+  
   justify-content: space-between;
   display: flex;
   
@@ -440,6 +441,8 @@ button:hover {
 
 #modal-right{
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #modal-right img{
@@ -448,4 +451,7 @@ button:hover {
 
 .close {
   cursor: pointer;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 20px;
 }
