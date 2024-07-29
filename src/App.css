@@ -298,7 +298,6 @@ button:hover {
   max-width: 300px;
   min-width: 200px;
   border-radius: 20px;
-  position:relative;
   background: rgb(233, 241, 228); 
   top: 50px;
   padding: 1rem;
