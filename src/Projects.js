@@ -9,6 +9,7 @@ function Projects(){
             <div>
                 <ProjectList/>
             </div>
+           
         </section>
     )
 }
