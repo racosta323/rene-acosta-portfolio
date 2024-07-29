@@ -1,8 +1,11 @@
-function Modal () {
+
+
+function Modal ({ handleClose }) {
+
     return(
         <div className='modal'>
             <div className= 'modal-content'>
-                <span class="close">&times;</span>
+                <span className="close" onClick={handleClose}>&times;</span>
                 <div id="modal-left">
                     <h3>Showmate</h3>
                     <h4>Summary</h4>

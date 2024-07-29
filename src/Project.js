@@ -1,7 +1,14 @@
 // Individual project that will go on project list
 import Modal from "./Modal";
+import { useState } from 'react'
 
 function Project(){
+
+    const [ showModal, setShowModal ] = useState(false)
+
+    const handleOpenModal = () => setShowModal(true)
+    const handleCloseModal = () => setShowModal(false)
+
     return(
         <>
             <div id="card">
@@ -13,10 +20,10 @@ function Project(){
                     <p>Distribution, retailing, booking and management of all travel related content – in a single platform.</p>
                 </div>
                 <div id='project-btn'>
-                    <button>Discover</button>
+                    <button onClick={handleOpenModal}>Discover</button>
                 </div>
             </div>  
-            <Modal/>
+            {showModal ? <Modal handleClose={ handleCloseModal }/> : ''}
         </>
     )
 }
