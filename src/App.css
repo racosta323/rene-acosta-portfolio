@@ -337,7 +337,7 @@ button:hover {
 #card-header {
   /* background-image: url('../public/showmate_homepage.png'); */
   width: 100%;
-  height: 184px;
+  height: auto;
   border-radius: var(--spacing-12) var(--spacing-12) 0px 0px;
   margin-bottom: var(--spacing-16);
   background-position: center;

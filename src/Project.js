@@ -30,7 +30,7 @@ function Project( { id, name, tagline, summary, image, tech, features, link }){
                     <button onClick={handleOpenModal}>Discover</button>
                 </div>
             </div>  
-            {showModal ? <Modal handleClose={ handleCloseModal } name={name} summary={summary} tech={tech}/> : ''}
+            {showModal ? <Modal handleClose={ handleCloseModal } name={name} summary={summary} tech={tech} image={image}/> : ''}
         </>
     )
 }

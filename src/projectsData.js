@@ -12,9 +12,9 @@ export const projectsData = [
     {
         id: 2,
         name: 'Showmate',
-        tagline: '',
-        summary: '',
-        image: '',
+        tagline: 'A vibrant hub for concert reviews and discovery, built with Flask, React, and Bootstrap',
+        summary: "A dynamic full-stack web app born from my capstone project at Flatiron School's software engineering curriculum. Developed in just one week, ShowMate empowers users to review concerts they've attended and explore others' reviews, fostering a vibrant community around live music experiences.",
+        image: '/showmate_homepage.png',
         tech: '',
         features: '',
         link: ''
@@ -24,7 +24,7 @@ export const projectsData = [
         name: 'Friday Fund',
         tagline: '',
         summary: '',
-        image: '',
+        image: '/FridayFund.png',
         tech: '',
         features: '',
         link:'' 
@@ -34,7 +34,7 @@ export const projectsData = [
         name: 'CatSpace',
         tagline: '',
         summary: '',
-        image: '',
+        image: '/CatSpace.png',
         tech: '',
         features: '',
         link:'' 

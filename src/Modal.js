@@ -1,6 +1,6 @@
 
 
-function Modal ({ handleClose, name, summary, tech }) {
+function Modal ({ handleClose, name, summary, tech, image }) {
 
     return(
         <div className='modal'>
@@ -20,7 +20,8 @@ function Modal ({ handleClose, name, summary, tech }) {
                 <div id="modal-right">
                     <div className="close"><span  onClick={handleClose}>&times;</span></div>
                     <img
-                        src="/showmate_homepage.png"
+                        src={image}
+                        alt=''
                     />
                 </div>
             </div>
