@@ -8,20 +8,21 @@ function ProjectList(){
 
   const [projects, setProjects] = useState([])
 
-  console.log("hello")
+  // console.log("projects", projects)
 
-  // useEffect(()=>{
-  //     setProjects(projectsData)
-  // }, [])
+  useEffect(()=>{
+      setProjects(projectsData)
+  }, [])
 
   const renderProjects = () => {
-    console.log("nothing yet")
-    }
+    return projects?.map((project)=>{
+      return <Project key={project.id} {...project}/>
+    })
+  }
 
     return(
         <div className="cards">
-          <Project projects={projects}/>
-         
+         {renderProjects()}
         </div>
     )
 }

@@ -13,6 +13,8 @@ import Resume from './Resume';
 
 
 function App() {
+
+  
   return (
     <div>
       <NavBar/>

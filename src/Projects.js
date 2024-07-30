@@ -2,9 +2,7 @@
 import ProjectList from "./ProjectList";
 
 
-function Projects({ projects }){
-
-   
+function Projects(){
    
     return(
         <section className="projects">
