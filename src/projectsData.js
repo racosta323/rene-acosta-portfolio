@@ -29,7 +29,7 @@ export const projectsData = [
         image: '/FridayFund.png',
         tech: '',
         features: '',
-        ghLink:'' ,
+        ghLink:'https://github.com/racosta323/kpkr-phase-4-project/blob/main/README.md' ,
         siteLink: ''
     },
     {
@@ -40,7 +40,7 @@ export const projectsData = [
         image: '/CatSpace.png',
         tech: '',
         features: '',
-        ghLink:'' ,
+        ghLink:'https://github.com/racosta323/her-phase-2-project-catspace/blob/main/README.md' ,
         siteLink: ''
     },
     {
@@ -51,7 +51,7 @@ export const projectsData = [
         image: '',
         tech: '',
         features: '',
-        ghLink:'' ,
+        ghLink:'https://github.com/racosta323/brt-phase-3-project/blob/main/README.md' ,
         siteLink: ''
     },
     {
@@ -62,7 +62,7 @@ export const projectsData = [
         image: '',
         tech: '',
         features: '',
-        ghLink:'' ,
+        ghLink:'https://github.com/racosta323/the-rickiverse/blob/main/README.md' ,
         siteLink: ''
     }
 ]
