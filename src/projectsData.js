@@ -2,11 +2,11 @@ export const projectsData = [
     {
         id: 1,
         name: "Personal Portfolio",
-        tagline: 'Distribution, retailing, booking and management of all travel related content – in a single platform.',
+        tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
         summary: 'Developed a groundbreaking app that translates dog barks into human speech, revolutionizing pet communication. Achieved 1 million downloads in the first month and received accolades from major tech blogs.',
         image: '/showmate_homepage.png',
         tech: 'JavaScript, Python, React',
-        features: '',
+        features: 'features',
         ghLink: '',
         siteLink: ''
     },

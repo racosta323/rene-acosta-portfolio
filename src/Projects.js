@@ -6,12 +6,9 @@ function Projects(){
    
     return(
         <section className="projects" id='projects'>
-            <h3>Check Out My Project Portfolio</h3>
+            <h3>Discover key projects that showcase my journey and skills</h3>
             <p>
-                Take a look at the exciting projects I've worked on.
-            </p>
-            <p>
-                Each project represents a step in my journey, showcasing my skills and passion for problem-solving.
+            Each project demonstrates my dedication to solving problems and delivering innovative solutions. <br/> <span className="bold">Unless noted otherwise, project features reflect my individual contributions and efforts.</span>
             </p>
             <div>
                 <ProjectList/>

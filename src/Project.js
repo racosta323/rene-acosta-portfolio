@@ -30,7 +30,18 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
                     <button onClick={handleOpenModal}>Discover</button>
                 </div>
             </div>  
-            {showModal ? <Modal handleClose={ handleCloseModal } name={name} summary={summary} tech={tech} image={image} gh={ghLink} site={siteLink}/> : ''}
+            {showModal ? 
+                <Modal 
+                    handleClose={ handleCloseModal } 
+                    name={name} 
+                    summary={summary} 
+                    tech={tech} 
+                    image={image} 
+                    gh={ghLink} 
+                    site={siteLink}
+                    features={features}
+                /> : 
+            ''}
         </>
     )
 }

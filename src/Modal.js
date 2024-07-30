@@ -1,6 +1,6 @@
 
 
-function Modal ({ handleClose, name, summary, tech, image, gh, site }) {
+function Modal ({ handleClose, name, summary, tech, image, gh, site, features }) {
 
     const handleOutsideClick = (e) => {
 
@@ -18,6 +18,12 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site }) {
                     <div id="tech">
                         <p>Tech used:</p>
                         <p>{tech}</p>
+                    </div>
+                    <div id="features">
+                        <h4>FEATURES</h4>
+                        <div >
+                            <p>Some features go here {features}</p>
+                        </div>
                     </div>
                     <div className="project-links">
                         {site && typeof site === 'string' && (

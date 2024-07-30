@@ -461,7 +461,6 @@ button:hover {
 #modal-left h4 {
   text-align: start;
   font-size: 13px;
-  line-height: 25px;
 }
 
 #modal-left p {
@@ -550,6 +549,14 @@ i:hover{
 
 a {
   cursor: pointer;
+}
+
+#features {
+  margin-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 
