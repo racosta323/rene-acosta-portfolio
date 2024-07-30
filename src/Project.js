@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 function Project( { id, name, tagline, summary, image, tech, features, ghLink, siteLink }){
 
-    console.log(id, name, tagline, summary, image, tech, features, ghLink, siteLink )
+    // console.log(id, name, tagline, summary, image, tech, features, ghLink, siteLink )
 
     const [ showModal, setShowModal ] = useState(false)
 
@@ -23,7 +23,7 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
                 <div id='logos'>
                     <h4>{name} </h4>
                 </div>
-                <div>
+                <div id="tagline">
                     <p>{tagline}</p>
                 </div>
                 <div id='project-btn'>

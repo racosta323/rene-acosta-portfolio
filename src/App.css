@@ -336,9 +336,8 @@ button:hover {
 }
 
 #card-header {
-  /* background-image: url('../public/showmate_homepage.png'); */
   width: 100%;
-  height: auto;
+  height: 150px;
   border-radius: var(--spacing-12) var(--spacing-12) 0px 0px;
   margin-bottom: var(--spacing-16);
   background-position: center;
@@ -363,11 +362,15 @@ button:hover {
 #logos{
   justify-content: center;
   padding: 20px 0px 10px 0px;
-
+  height: 60px;
 }
 
 #project-btn{
   margin: 20px 0px 30px 0px;
+}
+
+#tagline{
+  height: 150px;
 }
 
 #resume {

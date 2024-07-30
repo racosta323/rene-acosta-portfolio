@@ -6,14 +6,14 @@ export const projectsData = [
         summary: 'Developed a groundbreaking app that translates dog barks into human speech, revolutionizing pet communication. Achieved 1 million downloads in the first month and received accolades from major tech blogs.',
         image: '/showmate_homepage.png',
         tech: 'JavaScript, Python, React',
-        features: 'features',
+        features: 'Responsive images?, navbar',
         ghLink: '',
         siteLink: ''
     },
     {
         id: 2,
         name: 'Showmate',
-        tagline: 'A vibrant hub for concert reviews and discovery, built with Flask, React, and Bootstrap',
+        tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
         summary: "A dynamic full-stack web app born from my capstone project at Flatiron School's software engineering curriculum. Developed in just one week, ShowMate empowers users to review concerts they've attended and explore others' reviews, fostering a vibrant community around live music experiences.",
         image: '/showmate_homepage.png',
         tech: 'JavaScript, Python, React, Bootstrap, HTML, CSS, PostgreSQL, Flask, SQLAlchemy, Formik, Yup',
@@ -24,7 +24,7 @@ export const projectsData = [
     {
         id: 3,
         name: 'Friday Fund',
-        tagline: '',
+        tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
         summary: '',
         image: '/FridayFund.png',
         tech: 'JavaScript, React, React Router DOM Python, SQL, SQLAlchemy, Formik, Faker',
@@ -46,7 +46,7 @@ export const projectsData = [
     {
         id: 5,
         name: 'Travel CLI Tool',
-        tagline: '',
+        tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
         summary: '',
         image: '',
         tech: '',
@@ -57,7 +57,7 @@ export const projectsData = [
     {
         id: 6,
         name: 'The Rickiverse',
-        tagline: '',
+        tagline: 'Fun project cataloguing the various Ricks from Rick and Morty -- created using vanilla Javascript',
         summary: '',
         image: '',
         tech: '',
