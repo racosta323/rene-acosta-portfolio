@@ -7,7 +7,8 @@ function Home(){
         <section className='home' id="home">
             <h2>Hello, I'm Rene Acosta!</h2>
             <div className="center">
-                <p>Empower travellers and travel companies with choice, control and confidence. Snowfall's game-changing technology, Junction, makes booking and managing multimodal travel effortless.</p>
+                <p>I'm a full-stack software engineer passionate about data and efficiency, I craft scalable and innovative web applications that enhance user experiences and drive success. </p>
+                <p>Let’s connect to explore how I can support your software engineering needs! </p>
             </div>
             <ContactButton/>
             <img
@@ -22,7 +23,7 @@ function Home(){
                 Software Development Vectors by Vecteezy
             </a>
             <p id="carousel-text">
-                Trusted by the world's leading brands
+                Tech startups I've supported in Customer Success roles:
             </p>
             <Carousel/>
 

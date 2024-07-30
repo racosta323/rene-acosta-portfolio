@@ -6,8 +6,13 @@ function Projects(){
    
     return(
         <section className="projects" id='projects'>
-            <h3>A game-changer for travel sales, distribution and management</h3>
-            <p>One platform that connects all travel providers, resellers and partners with a single API.</p>
+            <h3>Check Out My Project Portfolio</h3>
+            <p>
+                Take a look at the exciting projects I've worked on.
+            </p>
+            <p>
+                Each project represents a step in my journey, showcasing my skills and passion for problem-solving.
+            </p>
             <div>
                 <ProjectList/>
             </div>
