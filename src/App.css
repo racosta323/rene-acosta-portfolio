@@ -333,7 +333,7 @@ button:hover {
 }
 
 #card-header {
-  background-image: url('../public/showmate_homepage.png');
+  /* background-image: url('../public/showmate_homepage.png'); */
   width: 100%;
   height: 184px;
   border-radius: var(--spacing-12) var(--spacing-12) 0px 0px;
@@ -341,6 +341,10 @@ button:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#card-header img {
+  max-width: 100%;
 }
 
 .cards{

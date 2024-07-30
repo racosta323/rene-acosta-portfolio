@@ -14,7 +14,12 @@ function Project( { id, name, tagline, summary, image, tech, features, link }){
     return(
         <>
             <div id="card">
-                <div id="card-header"></div>
+                <div id="card-header">
+                    <img
+                        src='/showmate_homepage.png'
+                        alt=''
+                    />
+                </div>
                 <div id='logos'>
                     <h4>{name} </h4>
                 </div>
