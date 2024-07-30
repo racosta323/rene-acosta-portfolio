@@ -20,6 +20,7 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site }) {
                         <p>{tech}</p>
                     </div>
                     <div className="project-links">
+                    {site && typeof site === 'string' && (
                         <div id='icons'>
                             <a href={site} target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-box-arrow-in-up-right tooltip">
@@ -27,6 +28,15 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site }) {
                                 </i>
                             </a>
                         </div>
+                    )}
+                        {/* <div id='icons'>
+                            {{site }}
+                            <a href={site} target="_blank" rel="noopener noreferrer">
+                                <i className="bi bi-box-arrow-in-up-right tooltip">
+                                    <span className='tooltiptext'>Click to see site</span>
+                                </i>
+                            </a>
+                        </div> */}
                         <div id='icons'>
                             <a href={gh} target="_blank" rel="noopener noreferrer">
                                 <i className="bi bi-github tooltip">
