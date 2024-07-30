@@ -16,7 +16,7 @@ function Project( { id, name, tagline, summary, image, tech, features, link }){
             <div id="card">
                 <div id="card-header">
                     <img
-                        src='/showmate_homepage.png'
+                        src={image}
                         alt=''
                     />
                 </div>

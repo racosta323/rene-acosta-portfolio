@@ -219,6 +219,7 @@ section.projects {
   margin-right:auto;
   margin-left:auto;
   display: flex;
+  width: 100vw;
 }
 
 
@@ -350,7 +351,7 @@ button:hover {
 .cards{
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  width: 100vw;
   gap: 50px;
 }
 
