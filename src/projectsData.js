@@ -31,6 +31,16 @@ export const projectsData = [
     },
     {
         id: 4,
+        name: 'CatSpace',
+        tagline: '',
+        summary: '',
+        image: '',
+        tech: '',
+        features: '',
+        link:'' 
+    },
+    {
+        id: 5,
         name: 'Travel CLI Tool',
         tagline: '',
         summary: '',

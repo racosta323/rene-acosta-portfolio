@@ -215,11 +215,11 @@ section.home {
 
 section.projects {
   background-color: #faf9ff;
-  padding-top: 100px;
   margin-right:auto;
   margin-left:auto;
   display: flex;
-  width: 100vw;
+  max-width: 100%;
+  padding: 100px 0px 0px 0px;
 }
 
 
@@ -318,12 +318,13 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 280px;
+  width: 250px;
   border-radius: 20px;
   background: rgb(233, 241, 228); 
   top: 50px;
   padding: 1rem;
   margin-bottom: 100px;
+  margin: 10px;
 }
 
 #card > div > p {
@@ -351,8 +352,10 @@ button:hover {
 .cards{
   display: flex;
   justify-content: center;
-  width: 100vw;
-  gap: 50px;
+  max-width: 90%;
+  padding-right: 90px;
+  padding-left: 90px;
+  flex-wrap: wrap;
 }
 
 #logos{
