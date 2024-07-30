@@ -2,9 +2,16 @@
 
 function Modal ({ handleClose, name, summary, tech, image }) {
 
+    const handleOutsideClick = (e) => {
+
+        if (e.target.className === 'modal') {
+          handleClose();
+        }
+      };
+
     return(
-        <div className='modal'>
-            <div className= 'modal-content'>
+        <div className='modal' onClick={handleOutsideClick}>
+            <div className= 'modal-content' onClick={(e) => e.stopPropagation()}>
                 <div id="modal-left">
                     <h3>{name}</h3>
                     <h4>{summary}</h4>
@@ -26,7 +33,9 @@ function Modal ({ handleClose, name, summary, tech, image }) {
                     </div>
                 </div>
                 <div id="modal-right">
-                    <div className="close"><span  onClick={handleClose}>&times;</span></div>
+                    <div className="close">
+                        <i class="bi bi-x-square-fill" onClick={handleClose}></i>
+                    </div>
                     <img
                         src={image}
                         alt=''
