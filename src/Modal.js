@@ -8,8 +8,10 @@ function Modal ({ handleClose, name, summary, tech }) {
                 <div id="modal-left">
                     <h3>{name}</h3>
                     <h4>{summary}</h4>
-                    <p>Tech used:</p>
-                    <p>{tech}</p>
+                    <div id="tech">
+                        <p>Tech used:</p>
+                        <p>{tech}</p>
+                    </div>
                 </div>
                 <div id="modal-right">
                     <div className="close"><span  onClick={handleClose}>&times;</span></div>
