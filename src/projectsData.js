@@ -16,7 +16,7 @@ export const projectsData = [
         tagline: 'A vibrant hub for concert reviews and discovery, built with Flask, React, and Bootstrap',
         summary: "A dynamic full-stack web app born from my capstone project at Flatiron School's software engineering curriculum. Developed in just one week, ShowMate empowers users to review concerts they've attended and explore others' reviews, fostering a vibrant community around live music experiences.",
         image: '/showmate_homepage.png',
-        tech: 'JavaScript, Python, React',
+        tech: 'JavaScript, Python, React, Bootstrap, HTML, CSS, PostgreSQL, Flask, SQLAlchemy, Formik, Yup',
         features: '',
         ghLink: 'https://github.com/racosta323/phase-5-project-showmate/blob/main/README.md',
         siteLink: 'https://phase-5-project-showmate.onrender.com/'
@@ -27,7 +27,7 @@ export const projectsData = [
         tagline: '',
         summary: '',
         image: '/FridayFund.png',
-        tech: '',
+        tech: 'JavaScript, React, React Router DOM Python, SQL, SQLAlchemy, Formik, Faker',
         features: '',
         ghLink:'https://github.com/racosta323/kpkr-phase-4-project/blob/main/README.md' ,
         siteLink: ''
@@ -38,7 +38,7 @@ export const projectsData = [
         tagline: '',
         summary: '',
         image: '/CatSpace.png',
-        tech: '',
+        tech: 'JavaScript, React, Bootstrap, HTML, CSS',
         features: '',
         ghLink:'https://github.com/racosta323/her-phase-2-project-catspace/blob/main/README.md' ,
         siteLink: ''
