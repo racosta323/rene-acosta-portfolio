@@ -1,6 +1,6 @@
 
 
-function Modal ({ handleClose, name, summary, tech, image }) {
+function Modal ({ handleClose, name, summary, tech, image, gh, site }) {
 
     const handleOutsideClick = (e) => {
 
@@ -21,20 +21,24 @@ function Modal ({ handleClose, name, summary, tech, image }) {
                     </div>
                     <div className="project-links">
                         <div id='icons'>
-                            <i className="bi bi-box-arrow-in-up-right tooltip">
-                                <span className='tooltiptext'>Click to see site</span>
-                            </i>
+                            <a href={site} target="_blank" rel="noopener noreferrer">
+                                <i className="bi bi-box-arrow-in-up-right tooltip">
+                                    <span className='tooltiptext'>Click to see site</span>
+                                </i>
+                            </a>
                         </div>
                         <div id='icons'>
-                            <i className="bi bi-github tooltip">
-                                <span className='tooltiptext'>Click to see GitHub</span>
-                            </i>
+                            <a href={gh} target="_blank" rel="noopener noreferrer">
+                                <i className="bi bi-github tooltip">
+                                    <span className='tooltiptext'>Click to see GitHub</span>
+                                </i>
+                            </a>    
                         </div>
                     </div>
                 </div>
                 <div id="modal-right">
                     <div className="close">
-                        <i class="bi bi-x-square-fill" onClick={handleClose}></i>
+                        <i className="bi bi-x-square-fill" onClick={handleClose}></i>
                     </div>
                     <img
                         src={image}

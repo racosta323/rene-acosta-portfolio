@@ -2,9 +2,9 @@
 import Modal from "./Modal";
 import { useState } from 'react'
 
-function Project( { id, name, tagline, summary, image, tech, features, link }){
+function Project( { id, name, tagline, summary, image, tech, features, ghLink, siteLink }){
 
-    console.log(id, name, tagline, summary, image, tech, features, link )
+    console.log(id, name, tagline, summary, image, tech, features, ghLink, siteLink )
 
     const [ showModal, setShowModal ] = useState(false)
 
@@ -30,7 +30,7 @@ function Project( { id, name, tagline, summary, image, tech, features, link }){
                     <button onClick={handleOpenModal}>Discover</button>
                 </div>
             </div>  
-            {showModal ? <Modal handleClose={ handleCloseModal } name={name} summary={summary} tech={tech} image={image}/> : ''}
+            {showModal ? <Modal handleClose={ handleCloseModal } name={name} summary={summary} tech={tech} image={image} gh={ghLink} site={siteLink}/> : ''}
         </>
     )
 }

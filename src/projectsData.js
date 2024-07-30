@@ -7,7 +7,8 @@ export const projectsData = [
         image: '/showmate_homepage.png',
         tech: 'JavaScript, Python, React',
         features: '',
-        link: ''
+        ghLink: '',
+        siteLink: ''
     },
     {
         id: 2,
@@ -15,9 +16,10 @@ export const projectsData = [
         tagline: 'A vibrant hub for concert reviews and discovery, built with Flask, React, and Bootstrap',
         summary: "A dynamic full-stack web app born from my capstone project at Flatiron School's software engineering curriculum. Developed in just one week, ShowMate empowers users to review concerts they've attended and explore others' reviews, fostering a vibrant community around live music experiences.",
         image: '/showmate_homepage.png',
-        tech: '',
+        tech: 'JavaScript, Python, React',
         features: '',
-        link: ''
+        ghLink: 'https://github.com/racosta323/phase-5-project-showmate/blob/main/README.md',
+        siteLink: 'https://phase-5-project-showmate.onrender.com/'
     },
     {
         id: 3,
@@ -27,7 +29,8 @@ export const projectsData = [
         image: '/FridayFund.png',
         tech: '',
         features: '',
-        link:'' 
+        ghLink:'' ,
+        siteLink: ''
     },
     {
         id: 4,
@@ -37,7 +40,8 @@ export const projectsData = [
         image: '/CatSpace.png',
         tech: '',
         features: '',
-        link:'' 
+        ghLink:'' ,
+        siteLink: ''
     },
     {
         id: 5,
@@ -47,17 +51,19 @@ export const projectsData = [
         image: '',
         tech: '',
         features: '',
-        link:'' 
+        ghLink:'' ,
+        siteLink: ''
     },
     {
-        id: 5,
+        id: 6,
         name: 'The Rickiverse',
         tagline: '',
         summary: '',
         image: '',
         tech: '',
         features: '',
-        link:'' 
+        ghLink:'' ,
+        siteLink: ''
     }
 ]
 
