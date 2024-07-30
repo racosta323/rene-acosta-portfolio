@@ -14,7 +14,11 @@ function Modal ({ handleClose, name, summary, tech, image }) {
                     </div>
                     <div className="project-links">
                         SITE ICON
-                        GH ICON
+                        <div id='icons'>
+                            <i className="bi bi-github tooltip">
+                                <span className='tooltiptext'>Do you see this?</span>
+                            </i>
+                        </div>
                     </div>
                 </div>
                 <div id="modal-right">
