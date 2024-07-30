@@ -13,7 +13,11 @@ function Modal ({ handleClose, name, summary, tech, image }) {
                         <p>{tech}</p>
                     </div>
                     <div className="project-links">
-                        SITE ICON
+                        <div id='icons'>
+                            <i className="bi bi-box-arrow-in-up-right tooltip">
+                                <span className='tooltiptext'>Click to see site</span>
+                            </i>
+                        </div>
                         <div id='icons'>
                             <i className="bi bi-github tooltip">
                                 <span className='tooltiptext'>Click to see GitHub</span>

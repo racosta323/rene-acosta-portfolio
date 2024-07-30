@@ -498,6 +498,7 @@ tech p {
   display:flex;
   justify-content: end;
   align-items: end;
+  gap: 20px;
 }
 
 i{
@@ -518,7 +519,7 @@ i:hover{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 100px;
   bottom: 100%;
   left: 50%;
   margin-left: -60px;
