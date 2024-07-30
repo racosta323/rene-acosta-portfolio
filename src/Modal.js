@@ -12,6 +12,10 @@ function Modal ({ handleClose, name, summary, tech }) {
                         <p>Tech used:</p>
                         <p>{tech}</p>
                     </div>
+                    <div className="project-links">
+                        SITE ICON
+                        GH ICON
+                    </div>
                 </div>
                 <div id="modal-right">
                     <div className="close"><span  onClick={handleClose}>&times;</span></div>

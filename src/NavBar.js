@@ -15,7 +15,7 @@ function NavBar() {
         <header className={`${scroll ? 'sticky' : ""}`}>
             <div id={`${scroll ? 'nav-container-solid' : 'nav-container'}`}>
                 <div id='nav-right'>
-                    <h1>RENE ACOSTA</h1>
+                    <h1><a href="#home">RENE ACOSTA</a></h1>
                     <ul>
                         <li><a href="#about">about</a></li>
                         <li><a href="#projects">projects</a></li>

@@ -76,11 +76,28 @@ li a:hover {
   text-decoration: none;
 }
 
+#nav-container-solid h1 a{
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 0px 10px 0px 60px;
+  text-decoration: none;
+}
+
+#nav-container h1 a{
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 48px;
+  color: #896bff;
+  font-size: 25px;
+  text-decoration: none;
+}
+
 #nav-container h1{
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
   color: #896bff;
   font-size: 25px;
+  text-decoration: none;
 }
 
 #nav-btn {
@@ -464,4 +481,10 @@ button:hover {
 
 tech p {
   line-height: 200px;
+}
+
+.project-links{
+  display:flex;
+  justify-content: end;
+  align-items: end;
 }

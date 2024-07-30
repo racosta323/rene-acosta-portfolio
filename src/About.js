@@ -2,7 +2,7 @@ import ContactButton from "./ContactButton"
 
 function About(){
     return (
-        <section className="about">
+        <section className="about" id="about">
            <div id="bio">
                 <h3>Some sorta writing</h3>
                 <p>
