@@ -7,6 +7,11 @@ function Carousel(){
                     alt="Guideline logo"
                     className="logo"
                 />
+                <img
+                    src="https://www.qualia.com/images/branding/qualia_logo_big.png"
+                    alt="Qualia logo"
+                    className="logo"
+                />
             </div>
             
         </div>

@@ -17,6 +17,7 @@ function Resume(){
                     <h3>30+</h3>
                     <p>hello</p>
                 </div>
+                
             </div>
             <div className="bg">
                 <button>Check out my resume here!</button>
