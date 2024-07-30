@@ -488,10 +488,7 @@ button:hover {
 
 #tech {
   margin: 50px 0px 0px 0px;
-}
-
-tech p {
-  line-height: 200px;
+  line-height: 20px;
 }
 
 .project-links{
