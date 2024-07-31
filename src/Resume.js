@@ -5,17 +5,17 @@ function Resume(){
                 <h3>Distribute and source all travel content through one API</h3>
             </div>
             <div id="numbers">
-                <div>
+                <div className="number">
                     <h3>30+</h3>
-                    <p>hello</p>
+                    <p>Number of cats that roam my apartment</p>
                 </div>
-                <div>
+                <div className="number">
                     <h3>30+</h3>
-                    <p>hello</p>
+                    <p>Number of cats that roam my apartment</p>
                 </div>
-                <div>
-                    <h3>30+</h3>
-                    <p>hello</p>
+                <div className="number">
+                    <h3>2</h3>
+                    <p>Number of cats that roam my apartment</p>
                 </div>
                 
             </div>
