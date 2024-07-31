@@ -35,7 +35,7 @@ export const projectsData = [
     {
         id: 4,
         name: 'CatSpace',
-        tagline: '',
+        tagline: 'A purrfect single-page app built with React, inspired by a shared love for cats.',
         summary: '',
         image: '/CatSpace.png',
         tech: 'JavaScript, React, Bootstrap, HTML, CSS',
@@ -46,9 +46,9 @@ export const projectsData = [
     {
         id: 5,
         name: 'Travel CLI Tool',
-        tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
+        tagline: "A CLI tool in Python for sharing and viewing trip details with friends, featuring a database built with ORM",
         summary: '',
-        image: '',
+        image: 'Travel CLI.png',
         tech: '',
         features: '',
         ghLink:'https://github.com/racosta323/brt-phase-3-project/blob/main/README.md' ,
@@ -57,11 +57,11 @@ export const projectsData = [
     {
         id: 6,
         name: 'The Rickiverse',
-        tagline: 'Fun project cataloguing the various Ricks from Rick and Morty -- created using vanilla Javascript',
-        summary: '',
-        image: '',
-        tech: '',
-        features: '',
+        tagline: 'Fun project cataloguing the various Ricks from Rick and Morty -- created using vanilla Javascript/CSS',
+        summary: 'A Vanilla JS and CSS project that lets users choose a Rick from a dropdown and like it. The app fetches data from an internal db.json file using HTTP methods and dynamically updates the DOM using CSS selectors. With five event listeners, it offers a responsive and interactive user experience.',
+        image: 'Rickiverse.png',
+        tech: 'JavaScript, CSS, HTML',
+        features: 'Maintains "like" counts preserved during session. Scripts for starting both frontend and backend servers',
         ghLink:'https://github.com/racosta323/the-rickiverse/blob/main/README.md' ,
         siteLink: ''
     }

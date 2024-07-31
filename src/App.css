@@ -480,6 +480,8 @@ button:hover {
 #modal-right img{
   height: 400px;
   max-width: 90%;
+  border: black;
+  border-style: solid;
 }
 
 .close {
