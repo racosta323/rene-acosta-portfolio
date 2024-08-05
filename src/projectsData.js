@@ -61,12 +61,14 @@ export const projectsData = [
         id: 5,
         name: 'Travel CLI Tool',
         tagline: "A CLI tool in Python for sharing and viewing trip details with friends, featuring a database built with ORM",
-        summary: 'This Python program facilitates tracking and managing travel experiences. It interacts with users to gather personal and trip information, allowing them to create, update, and remove travel records. Users can filter and sort their trips by various criteria such as stars, state, or country, and view trips made by others. The program also enables updating traveler details and resetting all data if needed. It includes error handling and debugging capabilities to ensure smooth operation and data integrity.',
+        summary: 'Led a group project as the primary coordinator, overseeing ideation, wireframing, planning, development, and code review, while managing overall project organization and execution. Inspired by group\'s love for travel.',
         image: 'Travel CLI.png',
         tech: 'Python, sqlite3, SQLAlchemy, ipdb',
         features: [
-            'Responsive images?', 
-            'navbar'
+            'Efficiently track and manage travel experiences through a sophisticated CLI interface, featuring a streamlined menu for easy navigation.', 
+            'Interact with the system to input and manage personal and trip information, enabling the creation, updating, and removal of travel records with precision.',
+            'Update traveler details seamlessly, with all information securely stored in a SQL relational database to ensure data integrity and persistence.',
+            'Benefit from robust error handling and debugging capabilities designed to maintain smooth operation and safeguard data integrity.'
         ],
         features2: 'Error handling; debugging capabilities',
         ghLink:'https://github.com/racosta323/brt-phase-3-project/blob/main/README.md' ,
@@ -76,16 +78,16 @@ export const projectsData = [
         id: 6,
         name: 'The Rickiverse',
         tagline: 'Fun project cataloguing the various Ricks from Rick and Morty -- created using vanilla Javascript/CSS',
-        summary: 'Created during my time at Flatiron School, I spearheaded an exhilarating group project inspired by the hit TV series Rick and Morty. I took charge of wireframing, meticulous planning, and dynamic code reviews, leading our team from conception to successful execution.',
+        summary: 'Created during my time at Flatiron School, I spearheaded a group project inspired by the hit TV series Rick and Morty. I took charge of wireframing, meticulous planning, and dynamic code reviews, leading our team from conception to successful execution.',
         image: 'Rickiverse.png',
         tech: 'JavaScript, CSS, HTML',
         features: [
             'Seamlessly retrieves data from an internal db.json file using dynamic HTTP requests.',
             'Empowers users to select their favorite Rick from an interactive dropdown menu, instantly updating the display.', 
             'Enhances user engagement with clickable buttons on each image, making it easy to pick a Rick.',
-            'Enables users to give a like (via button) to their chosen Rick, which updates the number of likes on the screen and persist throughout the session.'
+            'Enables users to give a like (via button) to their chosen Rick, which updates the number of likes on the screen and persist throughout the session.',
+            'Developed powerful scripts to seamlessly launch and manage both frontend and backend servers, ensuring smooth and efficient operations across the entire application stack.'
         ],
-        features2: 'Maintains "like" counts preserved during session. Scripts for starting both frontend and backend servers',
         ghLink:'https://github.com/racosta323/the-rickiverse/blob/main/README.md' ,
         siteLink: ''
     }
