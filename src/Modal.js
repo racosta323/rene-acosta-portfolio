@@ -15,10 +15,7 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
                 <div id="modal-left">
                     <h3>{name}</h3>
                     <h4>{summary}</h4>
-                    <div id="tech">
-                        <p>Tech used:</p>
-                        <p>{tech}</p>
-                    </div>
+                    
                     <div id="features">
                         <h4>FEATURES</h4>
                         <div >
@@ -52,6 +49,9 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
                         src={image}
                         alt=''
                     />
+                    <div id="tech">
+                        <p><strong>Tech used: </strong>{tech}</p>
+                    </div>
                 </div>
             </div>
         </div>

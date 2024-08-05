@@ -13,7 +13,7 @@ export const projectsData = [
     {
         id: 2,
         name: 'Showmate',
-        tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
+        tagline: 'Discover, review, and connect over live concerts. Built with Flask and React for seamless navigation and a vibrant music community.',
         summary: "the app allows users to review and explore concerts, creating a community centered around live music experiences. Built with Flask and SQLAlchemy for the backend and React with React Router for the frontend, ShowMate features a robust data management system, full CRUD functionality, validations, and state management using useContext. The app includes many-to-many relationships and implements various client-side routes for smooth navigation.",
         image: '/showmate_homepage.png',
         tech: 'JavaScript, Python, React, Bootstrap, HTML, CSS, PostgreSQL, Flask, SQLAlchemy, Formik, Yup',

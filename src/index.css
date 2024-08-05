@@ -16,3 +16,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root p{
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; 
+  font-weight: 300;
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
