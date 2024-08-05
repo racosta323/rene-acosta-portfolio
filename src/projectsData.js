@@ -80,8 +80,10 @@ export const projectsData = [
         image: 'Rickiverse.png',
         tech: 'JavaScript, CSS, HTML',
         features: [
-            'Responsive images?', 
-            'navbar'
+            'Seamlessly retrieves data from an internal db.json file using dynamic HTTP requests.',
+            'Empowers users to select their favorite Rick from an interactive dropdown menu, instantly updating the display.', 
+            'Enhances user engagement with clickable buttons on each image, making it easy to pick a Rick.',
+            'Enables users to give a like (via button) to their chosen Rick, which updates the number of likes on the screen and persist throughout the session.'
         ],
         features2: 'Maintains "like" counts preserved during session. Scripts for starting both frontend and backend servers',
         ghLink:'https://github.com/racosta323/the-rickiverse/blob/main/README.md' ,
