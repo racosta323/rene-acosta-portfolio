@@ -76,7 +76,7 @@ export const projectsData = [
         id: 6,
         name: 'The Rickiverse',
         tagline: 'Fun project cataloguing the various Ricks from Rick and Morty -- created using vanilla Javascript/CSS',
-        summary: 'A Vanilla JS and CSS project that lets users choose a Rick from a dropdown and like it. The app fetches data from an internal db.json file using HTTP methods and dynamically updates the DOM using CSS selectors. With five event listeners, it offers a responsive and interactive user experience.',
+        summary: 'Created during my time at Flatiron School, I spearheaded an exhilarating group project inspired by the hit TV series Rick and Morty. I took charge of wireframing, meticulous planning, and dynamic code reviews, leading our team from conception to successful execution.',
         image: 'Rickiverse.png',
         tech: 'JavaScript, CSS, HTML',
         features: [
