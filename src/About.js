@@ -11,6 +11,29 @@ function About(){
                 <p>
                     Connect with me if you share a passion for innovative tech projects, value customer satisfaction, or want to discuss software development and collaboration opportunities!
                 </p>
+                <div id='icons'>
+                    <a href='https://www.linkedin.com/in/acostarene/' target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-linkedin tooltip">
+                            <span className='tooltiptext'>
+                                Check out my LinkedIn!
+                            </span>
+                        </i>
+                    </a>
+                    <a href='https://www.medium.com/@racosta323' target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-medium tooltip">
+                            <span className='tooltiptext'>
+                                Check out my blog!
+                            </span>
+                        </i>
+                    </a>
+                    <a href='https://github.com/racosta323/' target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-github tooltip">
+                            <span className='tooltiptext'>
+                                Check out my GitHub!
+                            </span>
+                        </i>
+                    </a>
+                </div>
                 <div>
                     <ContactButton/>
                 </div>

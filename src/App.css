@@ -581,5 +581,9 @@ a {
   width: 150px;
 }
 
+#icons i{
+  margin-right: 20px;
+}
+
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
