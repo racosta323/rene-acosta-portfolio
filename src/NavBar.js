@@ -19,7 +19,7 @@ function NavBar() {
                     <ul>
                         <li><a href="#about">about</a></li>
                         <li><a href="#projects">projects</a></li>
-                        <li><a href="#contact">contact me</a></li>
+                        <li><a href="mailto:racosta323@gmail.com">contact me</a></li>
                     </ul>
                 </div>
                 <div id={`${scroll ? 'nav-btn' : 'nav-btn-solid'}`}>

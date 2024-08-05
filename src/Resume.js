@@ -2,7 +2,7 @@ function Resume(){
     return(
         <section>
             <div id='resume'>
-                <h3>Distribute and source all travel content through one API</h3>
+                <h3>Problem-solver; efficient person; hard-working; clean code</h3>
             </div>
             <div id="numbers">
                 <div className="number">
@@ -10,7 +10,7 @@ function Resume(){
                     <p>Years of professional experience</p>
                 </div>
                 <div className="number">
-                    <h3>30+</h3>
+                    <h3>2</h3>
                     <p>Number of cats that roam my apartment</p>
                 </div>
                 <div className="number">
