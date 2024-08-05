@@ -29,7 +29,7 @@ ul {
 
 li {
   font-size: 15px;
-  float: left;
+  /* float: left; */
 }
 
 li a {
@@ -88,6 +88,12 @@ li a:hover {
 #nav-container-solid button p a {
   color: #896bff;
 }
+
+#nav-container li,
+#nav-container-solid li {
+  float: left; 
+}
+
 
 #nav-container h1 a {
   padding: 0px 0px 0px 0px;
@@ -466,22 +472,12 @@ button a {
   margin:0px 50px 0px 0px;
 }
 
-#modal-left h3 {
-  text-align: start;
-  font-size: 30px;
-  margin-bottom: 40px;
-}
 
 #modal-left h4 {
   text-align: start;
   font-size: 13px;
   line-height: 30px;
   font-weight: normal;
-}
-
-#modal-left p {
-  text-align: start;
-  font-size: 15px;
 }
 
 
@@ -509,10 +505,6 @@ button a {
   margin: 10px 0px 0px 0px;
 }
 
-#features ul{
-  list-style-type:circle;
- 
-}
 
 #features ul li {
   font-size: 15px;
@@ -583,6 +575,10 @@ a {
 
 #features {
   margin-top: 50px;
+}
+
+ul.features-list{
+  list-style-type:circle;
 }
 
 .bold {

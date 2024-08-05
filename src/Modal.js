@@ -12,7 +12,7 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
     const renderFeatures = () => {
         return features.map((feature)=>{
             return (
-                <li>{feature}</li>
+                <li key={feature}>{feature}</li>
             )
         })}
 
@@ -25,7 +25,7 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
                     
                     <div id="features">
                         <h4>FEATURES</h4>
-                        <ul>
+                        <ul className="features-list">
                             {renderFeatures()}
                         </ul>
                     </div>
