@@ -4,9 +4,12 @@ function About(){
     return (
         <section className="about" id="about">
            <div id="bio">
-                <h3>Some sorta writing</h3>
+                <h3>Let's connect!</h3>
                 <p>
-                    Easy integration. Access the world’s biggest travel inventory with just one API.
+                    I've built and led customer success teams, collaborated with product and engineering teams, and completed a rigorous, full-time software engineering bootcamp with Flatiron School in 2024. I'm skilled in coding and passionate about projects that prioritize customer satisfaction. 
+                </p>
+                <p>
+                    Connect with me if you share a passion for innovative tech projects, value customer satisfaction, or want to discuss software development and collaboration opportunities!
                 </p>
                 <div>
                     <ContactButton/>
