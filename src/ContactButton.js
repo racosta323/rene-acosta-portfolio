@@ -2,7 +2,7 @@ function ContactButton(){
     return(
         <>
            <button type="button"> 
-                <p> &#10132; Contact Me</p>
+                <p><a href="mailto:someone@example.com"> &#10132; Contact Me</a></p>
             </button>
         </>
     )

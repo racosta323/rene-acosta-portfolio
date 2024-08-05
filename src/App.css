@@ -77,7 +77,7 @@ li a:hover {
   text-decoration: none;
 }
 
-#nav-container-solid h1 a{
+#nav-container-solid h1 a {
   display:block;
   color: white;
   text-align: center;
@@ -85,7 +85,11 @@ li a:hover {
   text-decoration: none;
 }
 
-#nav-container h1 a{
+#nav-container-solid button p a {
+  color: #896bff;
+}
+
+#nav-container h1 a {
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
   color: #896bff;
@@ -278,6 +282,13 @@ button:hover {
   background-color: #149678;
   color: white;
 }
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 .center{
   display: flex;
