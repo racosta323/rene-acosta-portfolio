@@ -386,11 +386,11 @@ button a {
 }
 
 #resume {
-  max-width: 50%;
+  max-width: 75%;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 #bio{

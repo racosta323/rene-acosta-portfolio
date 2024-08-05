@@ -2,7 +2,7 @@ function Resume(){
     return(
         <section>
             <div id='resume'>
-                <h3>Problem-solver; efficient person; hard-working; clean code</h3>
+                <h3>Efficient problem-solver known for writing clean code and tackling challenges with hard work and precision</h3>
             </div>
             <div id="numbers">
                 <div className="number">
