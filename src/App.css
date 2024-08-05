@@ -509,6 +509,15 @@ button a {
   margin: 10px 0px 0px 0px;
 }
 
+#features ul{
+  list-style-type:circle;
+ 
+}
+
+#features ul li {
+  font-size: 15px;
+}
+
 #tech p {
  text-align: justify;
 }

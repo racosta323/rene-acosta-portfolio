@@ -9,6 +9,13 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
         }
       };
 
+    const renderFeatures = () => {
+        return features.map((feature)=>{
+            return (
+                <li>{feature}</li>
+            )
+        })}
+
     return(
         <div className='modal' onClick={handleOutsideClick}>
             <div className= 'modal-content' onClick={(e) => e.stopPropagation()}>
@@ -18,9 +25,9 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
                     
                     <div id="features">
                         <h4>FEATURES</h4>
-                        <div >
-                            <p>Some features go here {features}</p>
-                        </div>
+                        <ul>
+                            {renderFeatures()}
+                        </ul>
                     </div>
                     <div className="project-links">
                         {site && typeof site === 'string' && (
@@ -51,6 +58,7 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
                     />
                     <div id="tech">
                         <p><strong>Tech used: </strong>{tech}</p>
+                        
                     </div>
                 </div>
             </div>
