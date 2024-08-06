@@ -4,7 +4,7 @@ export const projectsData = [
         name: "Personal Portfolio",
         tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
         summary: 'Developed a groundbreaking app that translates dog barks into human speech, revolutionizing pet communication. Achieved 1 million downloads in the first month and received accolades from major tech blogs.',
-        image: '/showmate_homepage.png',
+        image: '/Portfolio.png',
         tech: 'JavaScript, Python, React',
         features: [
             'Images dynamically adjust to fit any screen size, ensuring optimal viewing across devices.', 

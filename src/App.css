@@ -1,16 +1,15 @@
+
 .reneimg {
   border-radius: 50%;
-  /* height: 350px; */
-  /* height: fit-content; */
-  height: 570px;
-  width: 530px;
+  width: 100%;
+  height: auto;
+  max-width: 530px;
   
 }
 
 #rene-container{
-  margin-left: 0px;
   width: 100%;
-  margin: 0px 0px 80px 0px;
+  margin: 0px 0px 80px;
 }
 
 #root {
@@ -29,7 +28,7 @@ ul {
 
 li {
   font-size: 15px;
-  /* float: left; */
+
 }
 
 li a {
@@ -44,46 +43,63 @@ li a:hover {
   font-weight: 900;
 }
 
-#nav-container-solid {
+#nav-container-solid, #nav-container{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 15px 0px 20px 0px;
+  /* overflow: hidden; */
+  width: 100%;
+  align-items: center;
+}
+
+#nav-container-solid {
   background-color: #896bff;
-  overflow: hidden;
-  /* background-color: transparent; */
 }
 
 #nav-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 0px 20px 0px;
   background-color: #faf9ff;
-  overflow: hidden;
-  /* background-color: transparent; */
 }
 
-#nav-container-solid h1{
+/* #nav-container h1, #nav-container-solid h1{
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 48px;
+  color: #896bff;
+  font-size: 25px;
+  text-decoration: none;
+} */
+
+/* #nav-container-solid h1{
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
   color: white;
   font-size: 25px;
 }
 
-#nav-container-solid li a {
+#nav-container h1{
+  padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 48px;
+  color: #896bff;
+  font-size: 25px;
+  text-decoration: none;
+} */
+
+#nav-container-solid li a, #nav-container-solid h1 a {
   display:block;
   color: white;
   text-align: center;
-  padding: 0px 10px 0px 60px;
+  /* padding: 0px 10px 0px 60px; */
   text-decoration: none;
+  align-items: center;
 }
 
-#nav-container-solid h1 a {
+/* #nav-container-solid h1 a {
   display:block;
   color: white;
   text-align: center;
   padding: 0px 10px 0px 60px;
   text-decoration: none;
-}
+} */
 
 #nav-container-solid button p a {
   color: #896bff;
@@ -95,7 +111,7 @@ li a:hover {
 }
 
 
-#nav-container h1 a {
+#nav-container h1 a, #nav-container-solid h1 a  {
   padding: 0px 0px 0px 0px;
   margin: 5px 0px 0px 48px;
   color: #896bff;
@@ -103,22 +119,15 @@ li a:hover {
   text-decoration: none;
 }
 
-#nav-container h1{
-  padding: 0px 0px 0px 0px;
-  margin: 5px 0px 0px 48px;
+#nav-container h1 a  {
   color: #896bff;
-  font-size: 25px;
-  text-decoration: none;
 }
 
-#nav-btn {
-  display: flex;
-  max-height: 30px;
-  justify-content: center;
-  padding-right: 40px;
+#nav-container-solid h1 a {
+  color: white;
 }
 
-#nav-btn-solid {
+#nav-btn, #nav-btn-solid {
   display: flex;
   max-height: 30px;
   justify-content: center;
@@ -133,22 +142,23 @@ li a:hover {
 
 }
 
-#nav-btn button {
+button {
   background-color: #faf9ff;
   font-size: 16px;
   border-radius: 100px;
   border: none;
   transition-duration: .4s;
-  padding: 8px 24px 8px 24px;
+  /* padding: 8px 24px 8px 24px; */
   font-size: 20px;
   color: #896bff;
   font-weight: 600;
   font-style: normal;
   text-decoration: none;
   text-align: center;
-  min-height: 48px;
-  min-width: 48px;
+  /* min-height: 48px;
+  min-width: 48px; */
   cursor: pointer;
+  height: auto%;
 }
 
 button:hover {
@@ -156,8 +166,14 @@ button:hover {
   color: white;
 }
 
-#nav-right{
+#nav-btn button {
+  background-color: #faf9ff;
+}
+
+#nav-left{
   display: flex;
+  margin-left: 10px;
+  align-items: center;
 }
 
 .sticky{
@@ -166,7 +182,8 @@ button:hover {
   width: 100%;
 }
 
-/* .fade-in-section {
+
+.fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
   visibility: hidden;
@@ -180,7 +197,7 @@ button:hover {
   transform: none;
   visibility: visible;
   margin-top: 10px;
-} */
+}
 
 section {
     background-color: #faf9ff;
@@ -212,7 +229,7 @@ section.about > div {
   margin-right:auto;
   margin-left:auto;
   display: flex;
-  /* padding: 0px 0px 0px 50px; */
+
 }
 
 section.home {

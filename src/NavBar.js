@@ -12,9 +12,9 @@ function NavBar() {
     },[])
 
     return(
-        <header className={`${scroll ? 'sticky' : ""}`}>
+        <header className='sticky'>
             <div id={`${scroll ? 'nav-container-solid' : 'nav-container'}`}>
-                <div id='nav-right'>
+                <div id='nav-left'>
                     <h1><a href="#home">RENE ACOSTA</a></h1>
                     <ul>
                         <li><a href="#about">about</a></li>
