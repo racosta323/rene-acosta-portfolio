@@ -4,7 +4,7 @@ function Carousel(){
             <div className="slide">
                 <a href='https://www.guideline.com' target="_blank" rel="noopener noreferrer">
                     <img
-                        src="http://www.guideline.com/blog/content/images/size/w1500/2022/10/RebrandAnnouncement-BlogHeader-220914@2x.png"
+                        src="https://www.guideline.com/blog/content/images/size/w1500/2022/10/RebrandAnnouncement-BlogHeader-220914@2x.png"
                         alt="Guideline logo"
                         className="logo"
                     />
