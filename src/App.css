@@ -245,11 +245,15 @@ h2 {
   color: #7055f8;
 }
 
-h3 {
+h3, #modal-left h3 {
   font-size: 45px;
   text-align: center;
   color: #7055f8;
-  padding: 0px 20px 0px 20px;
+}
+
+#modal-left h3 {
+  text-align: start;
+
 }
 
 h4 {
@@ -474,7 +478,7 @@ button a {
   text-align: start;
   font-size: 14px;
   font-weight: normal;
-  
+  line-height: 1.5em;
 }
 
 
@@ -521,7 +525,7 @@ i{
 
 i:hover{
   font-size: 30px;
-  color:blue;
+  color:#7055f8;
   cursor: pointer;
 }
 
@@ -570,8 +574,22 @@ a {
   margin-top: 50px;
 }
 
+#features-bg{
+  background-color: #7055f8;
+}
+
+#features-bg h4{
+  color: white;
+}
+
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "\1F44D";
+  suffix: " "
+}
+
 ul.features-list{
-  list-style-type:circle;
+  list-style-type: thumbs;
 }
 
 .bold {

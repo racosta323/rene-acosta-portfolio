@@ -1,7 +1,9 @@
 function Features({ renderFeatures }){
     return(
         <div id="features">
-            <h4>FEATURES</h4>
+            <div id='features-bg'>
+                <h4>FEATURES</h4>
+            </div>
             <ul className="features-list">
                 {renderFeatures()}
             </ul>

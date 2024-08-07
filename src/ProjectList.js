@@ -8,7 +8,6 @@ function ProjectList(){
 
   const [projects, setProjects] = useState([])
 
-  // console.log("projects", projects)
 
   useEffect(()=>{
       setProjects(projectsData)

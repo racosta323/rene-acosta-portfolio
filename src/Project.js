@@ -2,9 +2,9 @@
 import Modal from "./Modal";
 import { useState } from 'react'
 
-function Project( { id, name, tagline, summary, image, tech, features, ghLink, siteLink }){
+function Project( { id, name, tagline, summary, image, tech, features, ghLink, siteLink, accomplishments }){
 
-    // console.log(id, name, tagline, summary, image, tech, features, ghLink, siteLink )
+    // console.log(id, name, tagline, summary, image, tech, features, ghLink, siteLink, accomplishments )
 
     const [ showModal, setShowModal ] = useState(false)
 
@@ -40,6 +40,7 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
                     gh={ghLink} 
                     site={siteLink}
                     features={features}
+                    accomplishments={accomplishments}
                 /> : 
             ''}
         </>

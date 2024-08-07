@@ -3,7 +3,7 @@ export const projectsData = [
         id: 1,
         name: "Personal Portfolio",
         tagline: 'A dynamic showcase of my technical expertise and creativity, featuring innovative and engaging features.',
-        summary: 'Developed a groundbreaking app that translates dog barks into human speech, revolutionizing pet communication. Achieved 1 million downloads in the first month and received accolades from major tech blogs.',
+        summary: 'A personal portfolio crafted to resemble a professional company\'s website, showcasing my projects in a sleek, chronological timeline. Built entirely in React, with vanilla CSS for styling and Bootstrap for icons, it\'s designed for easy navigation, making it simple to explore and learn more about my experience.',
         image: '/Portfolio.png',
         tech: 'JavaScript, Python, React',
         features: [

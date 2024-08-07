@@ -2,7 +2,7 @@ import { render } from "@testing-library/react";
 import Features from "./Features";
 
 
-function Modal ({ handleClose, name, summary, tech, image, gh, site, features }) {
+function Modal ({ handleClose, name, summary, tech, image, gh, site, features, accomplishments }) {
 
     const handleOutsideClick = (e) => {
 
@@ -18,6 +18,15 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
             )
         })}
 
+        const renderAccomplishments = () => {
+            return accomplishments?.map(accomplishment => {
+                return(
+                    <p>{accomplishment}</p>
+                )
+            })
+        }
+    
+
     return(
         <div className='modal' onClick={handleOutsideClick}>
             <div className= 'modal-content' onClick={(e) => e.stopPropagation()}>
@@ -27,6 +36,10 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features })
                         <h4>{summary}</h4>
                         <div id="tech">
                             <p><strong>Tech used: </strong>{tech}</p>
+                        </div>
+                        <div>
+                            <p>Achievements</p>
+                            {renderAccomplishments()}
                         </div>
                         <div className="project-links">
                             {site && typeof site === 'string' && (
