@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-:root p{
+:root p, h4 {
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; 
   font-weight: 300;

@@ -456,8 +456,11 @@ button a {
   display: flex;
   flex-direction: row;
   padding: 50px 30px 50px 50px;
+  flex-direction: column;  
+}
+
+.modal-top{
   display: flex;
-  
 }
 
 #modal-left{
@@ -469,9 +472,9 @@ button a {
 
 #modal-left h4 {
   text-align: start;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 14px;
   font-weight: normal;
+  
 }
 
 
@@ -484,8 +487,8 @@ button a {
 #modal-right img{
   height: 400px;
   max-width: 90%;
-  border: black;
-  border-style: solid;
+  object-fit: scale-down;
+  background-color: grey;
 }
 
 .close {
@@ -495,17 +498,13 @@ button a {
   margin-bottom: 20px;
 }
 
-#tech {
-  margin: 10px 0px 0px 0px;
-}
-
-
 #features ul li {
   font-size: 15px;
 }
 
 #tech p {
- text-align: justify;
+ text-align: start;
+ padding:0;
 }
 
 .project-links{
