@@ -220,6 +220,14 @@ section.home {
   width:100vw;
 }
 
+.home-text{
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
 section.projects {
   background-color: #faf9ff;
   margin-right:auto;
@@ -246,7 +254,7 @@ h2 {
 }
 
 h3, #modal-left h3 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
   color: #7055f8;
 }
@@ -460,7 +468,8 @@ button a {
   display: flex;
   flex-direction: row;
   padding: 50px 30px 50px 50px;
-  flex-direction: column;  
+  flex-direction: column;
+  background-color: #f5f4f8;  
 }
 
 .modal-top{
@@ -470,15 +479,21 @@ button a {
 #modal-left{
   width: 50%;
   padding:0px 20px 0px 0px;
-  margin:0px 50px 0px 0px;
+  margin: 60px 0px 0px 0px;
 }
 
 
 #modal-left h4 {
   text-align: start;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 1.5em;
+}
+
+#modal-left p {
+  text-align: start;
+  padding:0;
+  font-size: 10px;
 }
 
 
@@ -492,7 +507,7 @@ button a {
   height: 400px;
   max-width: 90%;
   object-fit: scale-down;
-  background-color: grey;
+  background-color: #f5f4f8;
 }
 
 .close {

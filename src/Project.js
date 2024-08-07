@@ -17,11 +17,11 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
                 <div id="card-header">
                     <img
                         src={image}
-                        alt=''
+                        alt={`Image of ${name}`}
                     />
                 </div>
                 <div id='logos'>
-                    <h4>{name} </h4>
+                    <h4><strong>{name}</strong></h4>
                 </div>
                 <div id="tagline">
                     <p>{tagline}</p>

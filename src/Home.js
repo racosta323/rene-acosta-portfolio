@@ -6,7 +6,7 @@ function Home(){
     return(
         <section className='home' id="home">
             <h2>Hello, I'm Rene Acosta!</h2>
-            <div className="center">
+            <div className="home-text">
                 <p>I'm a full-stack software engineer passionate about data and efficiency, I craft scalable and innovative web applications that enhance user experiences and drive success. </p>
                 <p>Let’s connect to explore how I can support your software engineering needs! </p>
             </div>

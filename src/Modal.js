@@ -21,7 +21,7 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features, a
         const renderAccomplishments = () => {
             return accomplishments?.map(accomplishment => {
                 return(
-                    <p>{accomplishment}</p>
+                    <p key={accomplishment}>{accomplishment}</p>
                 )
             })
         }
@@ -35,10 +35,11 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features, a
                         <h3>{name}</h3>
                         <h4>{summary}</h4>
                         <div id="tech">
-                            <p><strong>Tech used: </strong>{tech}</p>
+                            <p><strong>Tech used: </strong></p>
+                            <p>{tech}</p>
                         </div>
                         <div>
-                            <p>Achievements</p>
+                            <p><strong>Achievements:</strong></p>
                             {renderAccomplishments()}
                         </div>
                         <div className="project-links">
