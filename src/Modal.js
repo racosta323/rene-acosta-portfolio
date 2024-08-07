@@ -26,6 +26,16 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features, a
             })
         }
     
+        const accomplishmentsSection = () => {
+            return (
+                accomplishments && accomplishments.length > 0 ? (
+                    <div>
+                        <p><strong>Accompmlishments: </strong></p>
+                        {renderAccomplishments()}
+                    </div>
+                ) : null
+            )
+        }
 
     return(
         <div className='modal' onClick={handleOutsideClick}>
@@ -38,10 +48,11 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features, a
                             <p><strong>Tech used: </strong></p>
                             <p>{tech}</p>
                         </div>
-                        <div>
+                        {accomplishmentsSection()}
+                        {/* <div>
                             <p><strong>Achievements:</strong></p>
                             {renderAccomplishments()}
-                        </div>
+                        </div> */}
                         <div className="project-links">
                             {site && typeof site === 'string' && (
                                 <div id='icons'>
