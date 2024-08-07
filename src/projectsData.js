@@ -15,8 +15,8 @@ export const projectsData = [
             'External links are seamlessly integrated through distinct icons, which appear only when relevant information is available.',
             'The useState and useEffect hooks manage the opening and closing of modals, ensuring responsive and intuitive user interactions.'
         ],
-        ghLink: '',
-        siteLink: '',
+        ghLink: 'https://github.com/racosta323/rene-acosta-portfolio',
+        siteLink: 'https://rene-acosta-portfolio.onrender.com/',
         accomplishments: []
     },
     {
