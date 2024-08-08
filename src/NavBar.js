@@ -15,12 +15,16 @@ function NavBar() {
         <header className='sticky'>
             <div id={`${scroll ? 'nav-container-solid' : 'nav-container'}`}>
                 <div id='nav-left'>
-                    <h1><a href="#home">RENE ACOSTA</a></h1>
-                    <ul>
-                        <li><a href="#about">about</a></li>
-                        <li><a href="#projects">projects</a></li>
-                        <li><a href="mailto:racosta323@gmail.com">contact me</a></li>
-                    </ul>
+                    <div className='nav-logo'>
+                        <h1><a href="#home">RENE ACOSTA</a></h1>
+                    </div>
+                    <div className='nav-links'>
+                        <ul>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#projects">projects</a></li>
+                            <li><a href="mailto:racosta323@gmail.com">contact me</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div id={`${scroll ? 'nav-btn' : 'nav-btn-solid'}`}>
                     <ContactButton/>

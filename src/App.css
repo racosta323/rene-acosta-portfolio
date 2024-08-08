@@ -1,5 +1,6 @@
 #root {
   display: flex;
+  width: 100%;
 }
 
 .reneimg {
@@ -25,19 +26,15 @@
 ul {
   list-style-type: none;
   padding: 0;
-  margin-left: 80px;
 }
 
 li {
   font-size: 15px;
-  margin-right: 10px;
 }
 
 li a {
   display:block;
   color: #896bff;
-  text-align: center;
-  /* padding: 0px 10px 0px 60px; */
   text-decoration: none;
 }
 
@@ -48,12 +45,12 @@ li a:hover {
 #nav-container-solid, #nav-container{
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  padding: 15px 20px 20px 20px;
-  /* overflow: hidden; */
   align-items: center;
-  /* justify-content: flex-start; */
-  width: auto;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
 }
 
 #nav-container-solid {
@@ -64,45 +61,14 @@ li a:hover {
   background-color: #faf9ff;
 }
 
-/* #nav-container h1, #nav-container-solid h1{
-  padding: 0px 0px 0px 0px;
-  margin: 5px 0px 0px 48px;
-  color: #896bff;
-  font-size: 25px;
-  text-decoration: none;
-} */
-
-/* #nav-container-solid h1{
-  padding: 0px 0px 0px 0px;
-  margin: 5px 0px 0px 48px;
-  color: white;
-  font-size: 25px;
-}
-
-#nav-container h1{
-  padding: 0px 0px 0px 0px;
-  margin: 5px 0px 0px 48px;
-  color: #896bff;
-  font-size: 25px;
-  text-decoration: none;
-} */
 
 #nav-container-solid li a, #nav-container-solid h1 a {
   display:block;
   color: white;
-  text-align: center;
-  /* padding: 0px 10px 0px 60px; */
   text-decoration: none;
   align-items: center;
 }
 
-/* #nav-container-solid h1 a {
-  display:block;
-  color: white;
-  text-align: center;
-  padding: 0px 10px 0px 60px;
-  text-decoration: none;
-} */
 
 #nav-container-solid button p a {
   color: #896bff;
@@ -115,7 +81,6 @@ li a:hover {
 
 
 #nav-container h1 a, #nav-container-solid h1 a  {
-  color: #896bff;
   font-size: 25px;
   text-decoration: none;
 }
@@ -128,32 +93,14 @@ li a:hover {
   color: white;
 }
 
+#nav-btn-solid, #nav-btn{
+  width: 45%;
+  display: flex;
+  justify-content: end;
+}
+
 #nav-btn p, #nav-btn-solid p {
   font-size: 14px;
-}
-
-button {
-  background-color: #faf9ff;
-  font-size: 16px;
-  border-radius: 100px;
-  border: none;
-  transition-duration: .4s;
-  /* padding: 8px 24px 8px 24px; */
-  font-size: 20px;
-  color: #896bff;
-  font-weight: 600;
-  font-style: normal;
-  text-decoration: none;
-  text-align: center;
-  /* min-height: 48px;
-  min-width: 48px; */
-  cursor: pointer;
-  height: auto;
-}
-
-button:hover {
-  background-color: #149678;
-  color: white;
 }
 
 #nav-btn button {
@@ -163,31 +110,69 @@ button:hover {
 #nav-left{
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
+  width: 50%;
+  gap:30px;
+  padding-left: 20px;
+}
+
+.nav-links {
+  width: auto;
+  display: inline-block;
+  align-items: center;
+  gap: 10px;
+  position: sticky;
+  padding: 10px;
+}
+
+.nav-links ul{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: auto;
+  flex-wrap: wrap;
+  
+}
+
+.nav-logo{
   width: auto;
 }
 
 .sticky{
-  position: fixed;
-  top: 0;
+  position: sticky;
+  top: 0 ;
+  z-index: 1000;
   width: 100vw;
 }
 
 
-/* .fade-in-section {
-  opacity: 0;
-  transform: translateY(20vh);
-  visibility: hidden;
-  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-  will-change: opacity, visibility;
-  
+button {
+  background-color: #896bff;
+  font-size: 16px;
+  border-radius: 100px;
+  border: none;
+  transition-duration: .4s;
+  padding: 8px 24px 8px 24px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  min-height: 48px;
+  min-width: 48px;
+  cursor: pointer;
 }
 
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: none;
-  visibility: visible;
-  margin-top: 10px;
-} */
+button:hover {
+  background-color: #149678;
+  color: white;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
 
 section {
     background-color: #faf9ff;
@@ -200,10 +185,7 @@ section {
 }
 
 section.about{
-
-  /* align-items: start; */
   flex-direction:row;
-  /* justify-content: start;   */
   background-color: #faf9ff;
   margin-right:auto;
   margin-left:auto;
@@ -274,36 +256,6 @@ h4 {
   margin-bottom: 0px;
   margin-top: 100px
 }
-
-
-button {
-  background-color: #896bff;
-  font-size: 16px;
-  border-radius: 100px;
-  border: none;
-  transition-duration: .4s;
-  padding: 8px 24px 8px 24px;
-  font-size: 20px;
-  color: white;
-  font-weight: 600;
-  font-style: normal;
-  text-decoration: none;
-  text-align: center;
-  min-height: 48px;
-  min-width: 48px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #149678;
-  color: white;
-}
-
-button a {
-  color: white;
-  text-decoration: none;
-}
-
 
 
 .center{
@@ -432,10 +384,6 @@ button a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  /* justify-content: center;
-  gap: 200px; */
-  
 }
 
 #numbers h3{
