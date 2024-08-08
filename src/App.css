@@ -1,6 +1,6 @@
 #root {
   display: flex;
-  width: 100%;
+  max-width: 100vw;
 }
 
 .reneimg {
