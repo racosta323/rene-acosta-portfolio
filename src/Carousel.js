@@ -1,14 +1,18 @@
 function Carousel(){
     return(
-        <div>
-            <div className="slide">
+        
+        <div className="companies">
+            <div className="company-image">
                 <a href='https://www.guideline.com' target="_blank" rel="noopener noreferrer">
                     <img
-                        src="https://www.guideline.com/blog/content/images/size/w1500/2022/10/RebrandAnnouncement-BlogHeader-220914@2x.png"
+                        src="https://cms-assets.guideline.com/GDL_logo_7316e48028/format=auto,quality=75,width=640"
                         alt="Guideline logo"
                         className="logo"
+                        style={{width:"200px"}}
                     />
                 </a>
+            </div>
+            <div className="company-image">
                 <a href='https://www.qualia.com' target="_blank" rel="noopener noreferrer">
                     <img
                         src="https://www.qualia.com/images/branding/qualia_logo_big.png"
@@ -16,10 +20,10 @@ function Carousel(){
                         className="logo"
                     />
                 </a>
-                
             </div>
-            
         </div>
+        
+       
     )
 }
 
