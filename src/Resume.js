@@ -10,8 +10,8 @@ function Resume(){
                     <p>Years of professional experience</p>
                 </div>
                 <div className="number">
-                    <h3>2</h3>
-                    <p>Number of cats that roam my apartment</p>
+                    <h3>100k +</h3>
+                    <p>Estimated ARR unlocked through client onboarding and support</p>
                 </div>
                 <div className="number">
                     <h3>2</h3>
@@ -27,7 +27,7 @@ function Resume(){
             </div>
             <div className="bg">
                 <button>
-                    <a href='Rene_Acosta_Resume.pdf' download target="_blank" rel="noopener noreferrer">Check out my resume here!</a>
+                    <a href='Rene_Acosta_Resume.pdf' download >Check out my resume here!</a>
                 </button>
             </div>
         </section>
