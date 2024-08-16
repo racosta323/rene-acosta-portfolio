@@ -18,33 +18,10 @@ function App() {
   return (
     <div className='container'>
       <NavBar/>
-
-      {/* <FadeInSection> */}
         <Home/>
         <Projects/>
         <Resume/>
         <About/>
-      {/* </FadeInSection> */}
-
-      
-{/*      
-      <FadeInSection>
-        <p id='about'>about</p>
-        <About/>
-      </FadeInSection>
-
-      <p id='projects'>projects</p>
-
-      <FadeInSection>
-        <Name/>
-      </FadeInSection>
-
-      <p id='contact'>contact me</p>
-
-      <FadeInSection>
-        <Name/>
-      </FadeInSection> */}
-      
     </div>
   );
 }
