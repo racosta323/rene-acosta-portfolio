@@ -26,9 +26,11 @@ function Resume(){
                 
             </div>
             <div className="bg">
-                <button>
-                    <a href='Rene_Acosta_Resume.pdf' download >Check out my resume here!</a>
-                </button>
+                <a href='Rene_Acosta_Resume.pdf' download >
+                    <button>
+                        Check out my resume here!
+                    </button>
+                </a>
             </div>
         </section>
     )
