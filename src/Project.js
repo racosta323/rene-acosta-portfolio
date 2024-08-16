@@ -18,6 +18,7 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
                     <img
                         src={image}
                         alt={`Image of ${name}`}
+                        loading="lazy"
                     />
                 </div>
                 <div id='logos'>

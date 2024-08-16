@@ -9,6 +9,7 @@ function Carousel(){
                         alt="Guideline logo"
                         className="logo"
                         style={{width:"200px"}}
+                        loading="lazy"
                     />
                 </a>
             </div>
@@ -18,6 +19,7 @@ function Carousel(){
                         src="https://www.qualia.com/images/branding/qualia_logo_big.png"
                         alt="Qualia logo"
                         className="logo"
+                        loading="lazy"
                     />
                 </a>
             </div>

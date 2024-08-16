@@ -39,15 +39,14 @@ function About(){
                 </div>
            </div>
            
-           <div id='rene-container'>
-                <div className="center">
-                    <img
-                        src='/IMG_0592.png'
-                        alt='image of Rene'
-                        className="reneimg"
-                    />
-                </div>
-           </div>
+           
+            <div id='rene-container'>
+                <img
+                    src='/IMG_0592.png'
+                    alt='image of Rene'
+                    className="reneimg"
+                />
+            </div>
 
         </section>
     )
