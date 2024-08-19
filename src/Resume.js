@@ -10,8 +10,14 @@ function Resume(){
                     <p>Years of professional experience</p>
                 </div>
                 <div className="number">
-                    <h3>100k +</h3>
-                    <p>Estimated ARR unlocked through client onboarding and support</p>
+                    <h3>3.1K+</h3>
+                    <p> views on my&nbsp;
+                        <a 
+                            href='https://medium.com/@racosta323/create-a-simple-footer-using-react-bootstrap-58c4371a4ade'
+                            target="_blank"
+                        >blog post discussing React
+                        </a>
+                    </p>
                 </div>
                 <div className="number">
                     <h3>2</h3>
