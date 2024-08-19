@@ -15,17 +15,19 @@ function Resume(){
                         <a 
                             href='https://medium.com/@racosta323/create-a-simple-footer-using-react-bootstrap-58c4371a4ade'
                             target="_blank"
-                        >blog post discussing React
+                        >
+                            <b>blog post discussing React</b>
                         </a>
                     </p>
                 </div>
                 <div className="number">
                     <h3>2</h3>
-                    <p>Number of tech startups I've helped reach 
+                    <p>Number of tech startups I've helped reach&nbsp;
                         <a 
                             href='https://www.investopedia.com/terms/u/unicorn.asp#:~:text=Unicorns%20are%20startups%20whose%20valuations,going%20public%20through%20an%20IPO.'
                             target="_blank" 
-                        > unicorn status
+                        >
+                            <b>unicorn status</b>
                         </a>
                     </p>
                 </div>
