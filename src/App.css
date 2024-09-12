@@ -12,7 +12,6 @@ p {
 .reneimg {
   border-radius: 2%;
   max-width: 100%;
-  max-height: 100%;
   object-fit: cover;
   position: absolute;
   top:0;
@@ -25,10 +24,9 @@ p {
 }
 
 #rene-container{
-  width: 40%;
+  width: 100%;
   padding-top: 40%;
   position: relative;
-  margin-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +62,7 @@ li a:hover {
   width: 100%;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 500;
   
 }
 
@@ -199,14 +197,37 @@ section {
     width:100vw;
 }
 
-section.about{
-  flex-direction:row;
-  background-color: #faf9ff;
+section.half {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
   margin-right:auto;
   margin-left:auto;
   width:90vw;
+  padding: 0;
   align-items: start;
-  gap:50px;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.profile{
+  width: 40%;
+  position: sticky;
+  height: 100vh;
+  top:90px;
+}
+
+.right{
+  width: 60%;
+}
+
+section.about{
+  flex-direction:row;
+  background-color: #faf9ff;
+  width:100%;
+  align-items: start;
+  justify-content: start;
+  padding:0px
 }
 
 section.about > div {
@@ -215,7 +236,7 @@ section.about > div {
 
 section.home {
   background-color: #faf9ff;
-  padding-top: 180px;
+  /* padding-top: 180px; */
   width:100vw;
 }
 
@@ -232,8 +253,8 @@ section.projects {
   margin-right:auto;
   margin-left:auto;
   display: flex;
-  width: 100vw;
-  padding: 100px 20px 0px 0px;
+  width: 100%;
+  padding:0px;
 }
 
 section.projects p {
@@ -270,7 +291,12 @@ h2 {
   color: #7055f8;
 }
 
-h3, #modal-left h3 {
+h3 {
+  font-size: 30px;
+  color: #7055f8;
+}
+
+#modal-left h3 {
   font-size: 30px;
   text-align: center;
   color: #7055f8;
@@ -414,15 +440,28 @@ h4 {
 #bio{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
+}
+
+.bio-right{
+  width: 50%;
+  padding: 0px 10px 0px 10px;
+}
+
+.bio-right p, .bio-right h2{
+  text-align: start;
 }
 
 #bio p, #bio h3 {
   text-align: start;
 }
 
-#bio div {
-  margin-top: 40px;
+.contact-btn{
+  margin-top: 14px;
+}
+
+.contact-btn button{
+  padding: 0px 10px 0px 10px;
 }
 
 #numbers{

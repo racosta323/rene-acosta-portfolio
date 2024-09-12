@@ -1,18 +1,12 @@
 import ContactButton from "./ContactButton"
 
-function About(){
+function Profile(){
     return (
         <section className="about" id="about">
            
-           <div className="bio-right">
-           <h1>Rene Acosta</h1>
-
-                <p>
-                    I've built and led customer success teams, collaborated with product and engineering teams, and completed a rigorous, full-time software engineering bootcamp with <a target="_blank" href="https://flatironschool.com/" rel="noopener noreferrer">Flatiron School</a> in 2024. I'm skilled in coding and passionate about projects that prioritize customer satisfaction. 
-                </p>
-                <p>
-                    Connect with me if you share a passion for innovative tech projects, value customer satisfaction, or want to discuss software development and collaboration opportunities!
-                </p>
+            <div className="bio-right">
+                <h2>Rene Acosta</h2>
+                <h3>Software Engineer</h3>
                 <div id='icons'>
                     <a href='https://www.linkedin.com/in/acostarene/' target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-linkedin tooltip">
@@ -36,18 +30,11 @@ function About(){
                         </i>
                     </a>
                 </div>
-                <div>
-                    <ContactButton/>
+                <div className="contact-btn">
+                    <button type="button"> 
+                        <p><a href="mailto:racosta323@gmail.com"> &#10132; Contact Me</a></p>
+                    </button>
                 </div>
-        <div id="bio">
-                <div id='rene-container'>
-                    <img
-                        src='/IMG_0592.png'
-                        alt='image of Rene'
-                        className="reneimg"
-                    />
-                </div>
-           </div>
            </div>
            
             
@@ -56,4 +43,4 @@ function About(){
     )
 }
 
-export default About
+export default Profile
