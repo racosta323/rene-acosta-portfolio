@@ -203,15 +203,15 @@ section.half {
   justify-content: start;
   margin-right:auto;
   margin-left:auto;
-  width:90vw;
+  width:60vw;
   padding: 0;
   align-items: start;
-  gap: 30px;
+  gap: 240px;
   margin-top: 20px;
 }
 
 .profile{
-  width: 40%;
+  width: 30%;
   position: sticky;
   height: 100vh;
   top:90px;
@@ -222,7 +222,6 @@ section.half {
 }
 
 section.about{
-  flex-direction:row;
   background-color: #faf9ff;
   width:100%;
   align-items: start;
@@ -230,9 +229,23 @@ section.about{
   padding:0px
 }
 
+section.about p {
+  text-align: start;
+}
+
 section.about > div {
   background-color: #faf9ff;
 }
+
+section.profile{
+  background-color: #faf9ff;
+  width:100%;
+  align-items: start;
+  justify-content: start;
+  padding:0px
+}
+
+
 
 section.home {
   background-color: #faf9ff;
@@ -443,10 +456,6 @@ h4 {
   width: 50%;
 }
 
-.bio-right{
-  width: 50%;
-  padding: 0px 10px 0px 10px;
-}
 
 .bio-right p, .bio-right h2{
   text-align: start;

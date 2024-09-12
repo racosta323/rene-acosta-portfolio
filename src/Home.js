@@ -3,6 +3,7 @@ import Carousel from "./Carousel"
 import Profile from "./Profile"
 import Resume from "./Resume"
 import Projects from "./Projects"
+import About from "./About"
 
 function Home(){
     return(
@@ -12,8 +13,8 @@ function Home(){
                 <Profile/>
             </div>
             <div className="right">
+                <About/>
                 <Projects/>
-
             </div>
 
         </section>

@@ -1,12 +1,15 @@
 import ContactButton from "./ContactButton"
 
-function Profile(){
+function Profile() {
     return (
-        <section className="about" id="about">
-           
-            <div className="bio-right">
+        <section className="profile">
+
+            <div>
+
                 <h2>Rene Acosta</h2>
+
                 <h3>Software Engineer</h3>
+
                 <div id='icons'>
                     <a href='https://www.linkedin.com/in/acostarene/' target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-linkedin tooltip">
@@ -30,14 +33,24 @@ function Profile(){
                         </i>
                     </a>
                 </div>
+                <div id="bio">
+                    <div id='rene-container'>
+                        <img
+                            src='/IMG_0592.png'
+                            alt='image of Rene'
+                            className="reneimg"
+                        />
+                    </div>
+                </div>
                 <div className="contact-btn">
-                    <button type="button"> 
+                    <button type="button">
                         <p><a href="mailto:racosta323@gmail.com"> &#10132; Contact Me</a></p>
                     </button>
                 </div>
-           </div>
-           
-            
+            </div>
+
+
+
 
         </section>
     )
