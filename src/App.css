@@ -1,8 +1,13 @@
-#root {
+body {
+  width: 100vw;
+  height:auto;
+}
+
+/* #root {
   width:100%;
   min-width:100%;
   min-height: 100%;
-}
+} */
 
 p {
   font-size: 16px;
@@ -22,7 +27,7 @@ p {
 
 .container{
   width: 100%;
-  
+  display: grid;
 }
 
 #rene-container{
@@ -322,6 +327,17 @@ section.projects h3.heading{
     top:0;
     left:0;
   }
+
+  h2 {
+    font-size: .8rem;
+    margin:0;
+    color: #7055f8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
 }
 
 h2 {
