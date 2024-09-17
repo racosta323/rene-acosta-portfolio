@@ -14,6 +14,7 @@ function Home(){
             </div>
             <div className="right">
                 <About/>
+                <Resume/>
                 <Projects/>
             </div>
 

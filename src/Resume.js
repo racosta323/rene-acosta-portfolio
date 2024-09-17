@@ -1,7 +1,7 @@
 function Resume(){
     return(
-        <section>
-            <div id='resume'>
+        <section className="resume">
+            <div>
                 <h3>Efficient problem-solver known for writing clean code and tackling challenges with hard work and precision</h3>
             </div>
             <div id="numbers">
