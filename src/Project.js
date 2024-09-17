@@ -10,7 +10,7 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
     const handleCloseModal = () => setShowModal(false)
 
     return(
-        <div>
+        <div className="card-width">
             <div id="card">
                 {/* <div id="card-header">
                     <img
@@ -19,7 +19,7 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
                         loading="lazy"
                     />
                 </div> */}
-                <div>
+                <div className="card-name">
                     <h4><strong>{name}</strong></h4>
                 </div>
                 <div id="tagline">

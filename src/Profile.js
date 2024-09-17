@@ -6,7 +6,7 @@ function Profile() {
             <div>
                 <h2>Rene Acosta</h2>
                 <h3>Software Engineer</h3>
-                <h4>Some tagline goes here</h4>
+                <h4>Customer Success leader turned solutions-focused developer</h4>
                 <div id='icons'>
                     <a href='https://www.linkedin.com/in/acostarene/' target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-linkedin tooltip">
