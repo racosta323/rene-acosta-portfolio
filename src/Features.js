@@ -4,9 +4,11 @@ function Features({ renderFeatures }){
             <div id='features-bg'>
                 <h4>FEATURES</h4>
             </div>
-            <ul className="features-list">
-                {renderFeatures()}
-            </ul>
+            <div className="features-list">
+                <ul>
+                    {renderFeatures()}
+                </ul>
+            </div>
         </div>
     )
 }

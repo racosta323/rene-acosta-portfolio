@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import Features from "./Features";
 
 
@@ -82,7 +81,9 @@ function Modal ({ handleClose, name, summary, tech, image, gh, site, features, a
                         />
                     </div>
                 </div>
-                <Features renderFeatures={renderFeatures}/>
+                <div>
+                    <Features renderFeatures={renderFeatures}/>
+                </div>
             </div>
         </div>
     )

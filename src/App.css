@@ -515,7 +515,7 @@ section.resume{
 }
 
 .contact-btn{
-  margin-top: 14px;
+  margin-top: 20px;
 }
 
 .contact-btn button{
@@ -585,7 +585,7 @@ section.resume{
 
 #modal-left h4 {
   text-align: start;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.5em;
 }
@@ -593,7 +593,7 @@ section.resume{
 #modal-left p {
   text-align: start;
   padding:0;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 
@@ -619,6 +619,9 @@ section.resume{
 
 #features ul li {
   font-size: 15px;
+  font-family: "Biryani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #tech p {
@@ -698,13 +701,17 @@ a {
   color: white;
 }
 
+.features-list{
+ padding: 0 30px;
+}
+
 @counter-style thumbs {
   system: cyclic;
   symbols: "\1F44D";
   suffix: " "
 }
 
-ul.features-list{
+.features-list ul{
   list-style-type: thumbs;
 }
 
