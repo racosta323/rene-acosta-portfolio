@@ -5,8 +5,11 @@
 }
 
 p {
-  font-size: 1rem;
+  font-size: 16px;
   text-align: center;
+  font-family: "Biryani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .reneimg {
@@ -205,8 +208,8 @@ section.half {
   width:60vw;
   padding: 0;
   align-items: start;
-  gap: 240px;
-  margin-top: 20px;
+  gap: 100px;
+  margin-top: 40px;
 }
 
 .profile{
@@ -225,7 +228,9 @@ section.about{
   width:100%;
   align-items: start;
   justify-content: start;
-  padding:0px
+  padding:0px;
+  margin-bottom: 50px;
+  
 }
 
 section.about p {
@@ -244,6 +249,10 @@ section.profile{
   align-items: start;
   justify-content: start;
   padding:0px
+}
+
+section.profile > div h3{
+  line-height: 10px;
 }
 
 
@@ -296,14 +305,21 @@ section.projects {
 
 h2 {
   font-size: 57px;
-  text-align: center;
   margin:0;
   color: #7055f8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: #7055f8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
 }
 
 #modal-left h3 {
@@ -318,8 +334,9 @@ h3 {
 }
 
 h4 {
-  text-align: center;
-  margin:0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .name-tag {
@@ -431,7 +448,13 @@ section.resume{
   max-width:100%;
   align-items: start;
   justify-content: start;
-  padding:0px
+  padding:0px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.resume > div h3{
+  text-align: center;
 }
 
 /* #resume {
@@ -478,7 +501,6 @@ section.resume{
 
 .bg{
   background-color: #e3dcf9;
-  margin-bottom: 150px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -660,6 +682,7 @@ ul.features-list{
 
 #icons i{
   margin-right: 20px;
+  margin-top: 50px;
 }
 
 

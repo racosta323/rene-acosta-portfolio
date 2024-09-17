@@ -3,13 +3,10 @@ import ContactButton from "./ContactButton"
 function Profile() {
     return (
         <section className="profile">
-
             <div>
-
                 <h2>Rene Acosta</h2>
-
                 <h3>Software Engineer</h3>
-
+                <h4>Some tagline goes here</h4>
                 <div id='icons'>
                     <a href='https://www.linkedin.com/in/acostarene/' target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-linkedin tooltip">

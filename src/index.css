@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -9,7 +9,7 @@ body {
   min-width:100%;
   min-height: 100%;
   font-size: 1rem;
-}
+} */
 
 html {
   height: 100%;
@@ -23,11 +23,11 @@ code {
     monospace;
 }
 
-:root p, h4, #features ul li{
+/* :root p, h4, #features ul li{
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; 
   font-weight: 300;
-}
-@supports (font-variation-settings: normal) {
+} */
+/* @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable, sans-serif; }
-}
+} */
