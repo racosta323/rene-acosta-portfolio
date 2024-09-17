@@ -10,7 +10,7 @@ function Projects(){
             <p>
             Each project demonstrates my dedication to solving problems and delivering innovative solutions. <br/> <span className="bold">Unless noted otherwise, project features reflect my individual contributions and efforts.</span>
             </p>
-            <div>
+            <div className="card-container">
                 <ProjectList/>
             </div>
            

@@ -4,24 +4,22 @@ import { useState } from 'react'
 
 function Project( { id, name, tagline, summary, image, tech, features, ghLink, siteLink, accomplishments }){
 
-    // console.log(id, name, tagline, summary, image, tech, features, ghLink, siteLink, accomplishments )
-
     const [ showModal, setShowModal ] = useState(false)
 
     const handleOpenModal = () => setShowModal(true)
     const handleCloseModal = () => setShowModal(false)
 
     return(
-        <>
+        <div>
             <div id="card">
-                <div id="card-header">
+                {/* <div id="card-header">
                     <img
                         src={image}
                         alt={`Image of ${name}`}
                         loading="lazy"
                     />
-                </div>
-                <div id='logos'>
+                </div> */}
+                <div>
                     <h4><strong>{name}</strong></h4>
                 </div>
                 <div id="tagline">
@@ -44,7 +42,7 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
                     accomplishments={accomplishments}
                 /> : 
             ''}
-        </>
+        </div>
     )
 }
 

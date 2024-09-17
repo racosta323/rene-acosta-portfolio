@@ -268,10 +268,6 @@ section.projects {
   padding:0px;
 }
 
-section.projects p {
-  padding: 0px 40px 0px 40px;
-}
-
 @media(max-width: 768px){
   h3, #modal-left h3 {
     font-size: .9rem;
@@ -319,7 +315,6 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
   text-align: center;
   margin:0;
 }
@@ -328,7 +323,6 @@ h4 {
   margin-bottom: 0px;
   margin-top: 100px
 }
-
 
 .center{
   display: flex;
@@ -344,9 +338,10 @@ h4 {
   line-height: 28px;
 }
 
-#man-avatar{
-  max-width: 90%;
-  height: auto;
+#tagline {
+  width: 40%;
+  margin-right:auto;
+  margin-left: auto;
 }
 
 #link{
@@ -384,21 +379,16 @@ h4 {
 
 #card{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 250px;
   border-radius: 20px;
   background: rgb(233, 241, 228); 
   top: 50px;
   padding: 1rem;
-  margin-bottom: 100px;
   margin: 10px;
 }
 
 #card > div > p {
-  font-size: 16px;
-  padding-right: 20px;
-  padding-left:20px;
+  font-size: 13px;
   line-height: 150%;
 }
 
@@ -419,25 +409,18 @@ h4 {
 .cards{
   display: flex;
   justify-content: center;
-  max-width: 90%;
-  padding-right: 90px;
-  padding-left: 90px;
   flex-wrap: wrap;
-  margin-top: 30px;
+  width: 90%;
 }
 
-#logos{
+#project-btn button{
+  font-size: small;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 20px 0px 10px 0px;
-  height: 60px;
-}
-
-#project-btn{
-  margin: 20px 0px 30px 0px;
-}
-
-#tagline{
-  height: 150px;
 }
 
 #resume {
