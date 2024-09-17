@@ -383,7 +383,7 @@ h4 {
 }
 
 #tagline {
-  width: 40%;
+  width: 50%;
   margin-right:auto;
   margin-left: auto;
 }
@@ -433,7 +433,7 @@ h4 {
 }
 
 .card-name{
-  width: 33%;
+  width: 20%;
 }
 
 #card > div > p {
@@ -463,6 +463,7 @@ h4 {
 
 #project-btn button{
   font-size: small;
+  padding: 0 20px;
 }
 
 .card-container {
@@ -483,7 +484,7 @@ section.resume{
   justify-content: start;
   padding:0px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .resume > div h3{
