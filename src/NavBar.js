@@ -15,9 +15,6 @@ function NavBar() {
         <header className='sticky'>
             <div id={`${scroll ? 'nav-container-solid' : 'nav-container'}`}>
                 <div id='nav-left'>
-                    <div className='nav-logo'>
-                        <h1><a href="#home">RENE ACOSTA</a></h1>
-                    </div>
                     <div className='nav-links'>
                         <ul>
                             <li><a href="#about">about</a></li>
