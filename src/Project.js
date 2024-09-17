@@ -12,13 +12,6 @@ function Project( { id, name, tagline, summary, image, tech, features, ghLink, s
     return(
         <div className="card-width">
             <div id="card">
-                {/* <div id="card-header">
-                    <img
-                        src={image}
-                        alt={`Image of ${name}`}
-                        loading="lazy"
-                    />
-                </div> */}
                 <div className="card-name">
                     <h4><strong>{name}</strong></h4>
                 </div>
