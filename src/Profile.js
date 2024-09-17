@@ -41,12 +41,13 @@ function Profile() {
                             className="reneimg"
                         />
                     </div>
+                    <div className="contact-btn">
+                        <button type="button">
+                            <p><a href="mailto:racosta323@gmail.com"> &#10132; Contact Me</a></p>
+                        </button>
                 </div>
-                <div className="contact-btn">
-                    <button type="button">
-                        <p><a href="mailto:racosta323@gmail.com"> &#10132; Contact Me</a></p>
-                    </button>
                 </div>
+                
             </div>
 
 
