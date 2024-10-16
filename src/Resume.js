@@ -34,7 +34,7 @@ function Resume(){
                 
             </div>
             <div className="bg">
-                <a href='Rene Acosta - Resume.pdf' download >
+                <a href='Rene_Acosta_Resume.pdf' download >
                     <button>
                         Check out my resume here!
                     </button>
